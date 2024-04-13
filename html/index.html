@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Konserleri Ülkelere Göre</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <h1>Taylor Swift Konserleri Ülkelere Göre</h1>
+    <div id="chart"></div>
+
+    <script>
+        // JSON verisini yükle
+        d3.json("../data/TaylorSwift.json").then(function(data) {
+            // Ülkeleri ve konser sayılarını saklayacak bir obje oluştur
+            const countryCounts = {};
+
+            // Her konserin ülkesini say
+            data.turneler.forEach(turne => {
+                turne.uluslararası_tarihler.forEach(konser => {
+                    const country = konser.ülke;
+                    countryCounts[country] = (countryCounts[country] || 0) + 1;
+                });
+            });
+
+            // Grafik boyutları
+            const width = 600;
+            const height = 400;
+
+            // SVG elemanını oluştur
+            const svg = d3.select("#chart")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+            // Çubuk grafik için ölçek fonksiyonları
+            const xScale = d3.scaleBand()
+                .domain(Object.keys(countryCounts))
+                .range([0, width])
+                .padding(0.1);
+
+            const yScale = d3.scaleLinear()
+                .domain([0, d3.max(Object.values(countryCounts))])
+                .range([height, 0]);
+
+            // Çubukları oluştur
+            svg.selectAll("rect")
+                .data(Object.entries(countryCounts))
+                .enter()
+                .append("rect")
+                .attr("x", d => xScale(d[0]))
+                .attr("y", d => yScale(d[1]))
+                .attr("width", xScale.bandwidth())
+                .attr("height", d => height - yScale(d[1]))
+                .attr("fill", "skyblue");
+
+            // Ülke isimlerini ve konser sayılarını çubukların üzerine ekle
+            svg.selectAll("text")
+                .data(Object.entries(countryCounts))
+                .enter()
+                .append("text")
+                .text(d => `${d[0]} (${d[1]})`)
+                .attr("x", d => xScale(d[0]) + xScale.bandwidth() / 2)
+                .attr("y", d => yScale(d[1]) - 5)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "12px")
+                .attr("fill", "black");
+
+            // Eksenleri oluştur
+            svg.append("g")
+                .attr("transform", `translate(0, ${height})`)
+                .call(d3.axisBottom(xScale))
+                .selectAll("text")
+                .attr("transform", "rotate(-45)")
+                .style("text-anchor", "end");
+
+            svg.append("g")
+                .call(d3.axisLeft(yScale));
+
+            // Eksen etiketlerini ekle
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height + 40)
+                .attr("text-anchor", "middle")
+                .text("Ülkeler");
+
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height / 2)
+                .attr("y", -50)
+                .attr("text-anchor", "middle")
+                .text("Konser Sayısı");
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,18 @@
+body {
+    background: linear-gradient(to bottom right, rgba(170, 170, 170, 0.7),  rgba(231, 231, 231, 0.7));
+}
+
+#map{
+    margin-top: 75px;
+    width: 94rem;
+}
+svg path{
+    fill: rgb(83, 82, 82);
+    stroke: white;
+    stroke-width: .125;
+}
+svg path:hover{
+    fill: grey;
+    transition: 0.6s;
+    cursor: pointer;
+}

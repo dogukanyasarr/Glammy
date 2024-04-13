@@ -1,0 +1,115 @@
+.background-image {
+  background-image: url('../images/homepage8.png'); /* Arka plan resmi */
+  background-size: cover;
+  background-position: center;
+  height: 20rem; /* Ekran yüksekliği kadar alan kaplasın */
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%; 
+} 
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+#home img{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  max-width: 20%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name{
+  text-align: center;
+}
+#home .name p{
+  color: gray;
+}
+#home .name h2{
+  margin-bottom: 0.75rem; /* 16 px'e göre bir küçültme yapıyor. */
+}
+#home .name p{
+  opacity: 0.6;
+  font-style: italic;
+}
+#home .kesfet{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5); /* Buradaki değerler #6D4C41 renginin RGB değerleridir ve sonraki değer (0.5) ise opaklık seviyesidir. */
+  width: 20rem;
+  border-radius: 50px;
+}
+#home .kesfet:hover{
+  opacity: 0.5;
+}
+/* CSS */
+.kesfet-button{
+background: linear-gradient(to bottom right,  rgba(199, 184, 179, 0.7),  rgba(56, 56, 56, 0.7));
+border: 0;
+border-radius: 12px;
+color: #FFFFFF;
+cursor: pointer;
+display: inline-block;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 2.5;
+outline: transparent;
+padding: 0 5rem;
+text-align: center;
+text-decoration: none;
+transition: box-shadow .2s ease-in-out;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+white-space: nowrap;
+}
+.kesfet-button:not([disabled]):focus {
+box-shadow: 0 0 .25rem gray, -.125rem -.125rem 1rem gray, .125rem .125rem 1rem rgba(56, 56, 56, 0.7);
+}
+
+.kesfet-button:not([disabled]):hover {
+box-shadow: 0 0 .25rem gray, -.125rem -.125rem 1rem gray, .125rem .125rem 1rem rgba(56, 56, 56, 0.7);
+}
+#hakkımızda{
+  color: black;
+  padding: 1rem;
+}
+#hakkımızda .items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#hakkımızda .items .item{
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#hakkımızda .items .item h3{
+  margin-top: 1rem;
+  text-align: center;
+}
+#hakkımızda .items .item:hover{
+  color: grey;
+  opacity: 0.99;
+}
+.items .item img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.items {
+  display: flex;
+  justify-content: center; /* Öğeleri yatay eksende ortala */
+}
+.item {
+  text-align: center; /* İçeriği yatay eksende ortala */
+  margin: 0 10px; /* Öğeler arasında boşluk bırak */
+}
+.items .item img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

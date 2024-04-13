@@ -1,0 +1,56 @@
+#navbar{
+    background-color: rgba(128, 128, 128, 0);/* Saydam arka plan */
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease; /* Geçiş efekti için */
+  }
+  
+.navbar-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  
+.brand {
+    display: flex;
+    align-items: center; 
+}
+.logo {
+    display: inline-block;
+    width: 30px; /* İkon genişliği, istediğiniz boyuta ayarlayabilirsiniz */
+    margin-right: 10px; /* İkon ile metin arasındaki boşluk */
+    /* border-bottom: 3px solid #6D4C41; */
+    padding: 0.3rem;
+}
+  
+.brand h1 {
+    margin: 0;
+    color: white;
+} 
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+  
+.nav-links li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:700;
+    text-decoration: none;
+    color: 		white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Geçiş efekti için */
+}
+.nav-links li a:hover {
+    opacity: 0.7;
+    border-bottom: 5px solid gray;
+    color: black;
+}
