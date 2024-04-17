@@ -34,7 +34,7 @@
             .ringRepeatPeriod(FLIGHT_TIME * ARC_REL_LEN / NUM_RINGS)
             (document.getElementById('globeViz'));
 
-        fetch('https://raw.githubusercontent.com/dogukanyasarr/Glammy/main/data/TaylorSwift.json')
+        fetch('https://raw.githubusercontent.com/dogukanyasarr/Glammy/main/data/coldplay.json')
             .then(response => response.json())
             .then(jsonData => {
                 const turneler = jsonData.turneler.map(turne => ({

@@ -1,0 +1,61 @@
+{
+    "turneler": [
+        {
+            "şarkıcı": "COLDPLAY",
+            "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
+            "uluslararası_tarihler": [
+                {
+                  "id": 1018,
+                  "tarih": "2024-06-20",
+                  "konser_yeri": "STADIO GIUSEPPE MEAZZA",
+                  "destekleyen_sanatçı": "Halsey",
+                  "şehir": "Milan",
+                  "ülke": "Italy",
+                  "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+                  "gidiş_koordinatları": { "lat": 45.4789, "lng": 9.2389 }
+                },
+                {
+                  "id": 1019,
+                  "tarih": "2024-07-04",
+                  "konser_yeri": "ALLIANZ RIVIERA",
+                  "destekleyen_sanatçı": "Dua Lipa",
+                  "şehir": "Nice",
+                  "ülke": "France",
+                  "başlangıç_koordinatları": { "lat": 43.7102, "lng": 7.2619 },
+                  "gidiş_koordinatları": { "lat": 43.7034, "lng": 7.2663 }
+                },
+                {
+                  "id": 1020,
+                  "tarih": "2024-08-08",
+                  "konser_yeri": "ESTADIO OLÍMPICO DE LA CARTUJA",
+                  "destekleyen_sanatçı": "Ed Sheeran",
+                  "şehir": "Seville",
+                  "ülke": "Spain",
+                  "başlangıç_koordinatları": { "lat": 37.4246, "lng": -5.9709 },
+                  "gidiş_koordinatları": { "lat": 37.3891, "lng": -5.9822 }
+                },
+                {
+                  "id": 1021,
+                  "tarih": "2024-09-15",
+                  "konser_yeri": "MARACANÃ STADIUM",
+                  "destekleyen_sanatçı": "Beyoncé",
+                  "şehir": "Rio de Janeiro",
+                  "ülke": "Brazil",
+                  "başlangıç_koordinatları": { "lat": -22.9129, "lng": -43.2003 },
+                  "gidiş_koordinatları": { "lat": -22.9122, "lng": -43.2302 }
+                },
+                {
+                  "id": 1022,
+                  "tarih": "2024-10-20",
+                  "konser_yeri": "TOKYO DOME",
+                  "destekleyen_sanatçı": "BTS",
+                  "şehir": "Tokyo",
+                  "ülke": "Japan",
+                  "başlangıç_koordinatları": { "lat": 35.7056, "lng": 139.7514 },
+                  "gidiş_koordinatları": { "lat": 35.7039, "lng": 139.7690 }
+                }
+              ]
+              
+        }
+    ]
+}
