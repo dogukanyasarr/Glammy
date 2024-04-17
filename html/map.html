@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taylor Swift Concert Visualization</title>
+    <title>Coldplay Concert Visualization</title>
     <style> 
         body { margin: 0; }
         #tooltip {
@@ -52,7 +52,7 @@
                 tooltip.style.left = event.clientX + 'px';
             })(document.getElementById('globeViz'));
 
-        fetch('https://raw.githubusercontent.com/dogukanyasarr/Glammy/main/data/TaylorSwift.json')
+        fetch('https://raw.githubusercontent.com/dogukanyasarr/Glammy/main/data/Coldplay.json')
             .then(response => response.json())
             .then(jsonData => {
                 const turneler = jsonData.turneler.map(turne => ({
@@ -62,10 +62,9 @@
                         "id": tarih.id,
                         "tarih": tarih.tarih,
                         "konser_yeri": tarih.konser_yeri,
-                        "destekleyen_sanatçı": tarih.destekleyen_sanatçı,
                         "şehir": tarih.şehir,
                         "ülke": tarih.ülke,
-                        "description": `${tarih.destekleyen_sanatçı} will perform at ${tarih.konser_yeri} in ${tarih.şehir}, ${tarih.ülke} on ${tarih.tarih}.`,
+                        "description": `${turne.şarkıcı}'s ${tarih.turne_adı} will perform at ${tarih.konser_yeri} in ${tarih.şehir}, ${tarih.ülke} on ${tarih.tarih}.`,
                         "başlangıç_koordinatları": { "lat": tarih.başlangıç_koordinatları.lat, "lng": tarih.başlangıç_koordinatları.lng },
                         "gidiş_koordinatları": { "lat": tarih.gidiş_koordinatları.lat, "lng": tarih.gidiş_koordinatları.lng }
                     }))
