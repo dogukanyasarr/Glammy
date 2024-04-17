@@ -15,6 +15,66 @@
           "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 } 
         },
         {
+          "id": 1002,
+          "tarih": "FRI, MAY 10, 2024",
+          "konser_yeri": "BERLIN STADIUM",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Berlin",
+          "ülke": "Germany",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 52.5200, "lng": 13.4050 }
+        },
+        {
+          "id": 1003,
+          "tarih": "SAT, MAY 11, 2024",
+          "konser_yeri": "PARIS LA DÉFENSE ARENA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Paris",
+          "ülke": "France",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+        },
+        {
+          "id": 1004,
+          "tarih": "SUN, MAY 12, 2024",
+          "konser_yeri": "PARIS LA DÉFENSE ARENA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Paris",
+          "ülke": "France",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+        },
+        {
+          "id": 1005,
+          "tarih": "FRI, MAY 17, 2024",
+          "konser_yeri": "FRIENDS ARENA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Stockholm",
+          "ülke": "Sweden",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 59.3293, "lng": 18.0686 }
+        },
+        {
+          "id": 1006,
+          "tarih": "SAT, MAY 18, 2024",
+          "konser_yeri": "FRIENDS ARENA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Stockholm",
+          "ülke": "Sweden",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 59.3293, "lng": 18.0686 }
+        },
+        {
+          "id": 1007,
+          "tarih": "SUN, MAY 19, 2024",
+          "konser_yeri": "FRIENDS ARENA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Stockholm",
+          "ülke": "Sweden",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 59.3293, "lng": 18.0686 }
+        },
+        {
           "id": 1008,
           "tarih": "SAT, MAY 25, 2024",
           "konser_yeri": "STADIO GIUSEPPE MEAZZA",
@@ -23,6 +83,96 @@
           "ülke": "Italy",
           "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
           "gidiş_koordinatları": { "lat": 45.4642, "lng": 9.1900 }
+        },
+        {
+          "id": 1009,
+          "tarih": "SUN, MAY 26, 2024",
+          "konser_yeri": "STADIO GIUSEPPE MEAZZA",
+          "destekleyen_sanatçı": "Paramore",
+          "şehir": "Milan",
+          "ülke": "Italy",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 45.4642, "lng": 9.1900 }
+        },
+        {
+          "id": 1010,
+          "tarih": "FRI, JUN 07, 2024",
+          "konser_yeri": "WEMBLEY STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "London",
+          "ülke": "United Kingdom",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 51.5560, "lng": -0.2790 }
+        },
+        {
+          "id": 1011,
+          "tarih": "SAT, JUN 08, 2024",
+          "konser_yeri": "WEMBLEY STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "London",
+          "ülke": "United Kingdom",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 51.5560, "lng": -0.2790 }
+        },
+        {
+          "id": 1012,
+          "tarih": "SUN, JUN 09, 2024",
+          "konser_yeri": "WEMBLEY STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "London",
+          "ülke": "United Kingdom",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 51.5560, "lng": -0.2790 }
+        },
+        {
+          "id": 1013,
+          "tarih": "WED, JUN 12, 2024",
+          "konser_yeri": "ETIHAD STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "Manchester",
+          "ülke": "United Kingdom",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 53.4830, "lng": -2.2000 }
+        },
+        {
+          "id": 1014,
+          "tarih": "THU, JUN 13, 2024",
+          "konser_yeri": "ETIHAD STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "Manchester",
+          "ülke": "United Kingdom",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 53.4830, "lng": -2.2000 }
+        },
+        {
+          "id": 1015,
+          "tarih": "SAT, JUN 15, 2024",
+          "konser_yeri": "AVIVA STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "Dublin",
+          "ülke": "Ireland",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 53.3498, "lng": -6.2603 }
+        },
+        {
+          "id": 1016,
+          "tarih": "SUN, JUN 16, 2024",
+          "konser_yeri": "AVIVA STADIUM",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "Dublin",
+          "ülke": "Ireland",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 53.3498, "lng": -6.2603 }
+        },
+        {
+          "id": 1017,
+          "tarih": "WED, JUN 19, 2024",
+          "konser_yeri": "STADIO GIUSEPPE MEAZZA",
+          "destekleyen_sanatçı": "Halsey",
+          "şehir": "Milan",
+          "ülke": "Italy",
+          "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+          "gidiş_koordinatları": { "lat": 45.4789, "lng": 9.2389 }
         },
         {
           "id": 1018,
@@ -43,30 +193,6 @@
           "ülke": "France",
           "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
           "gidiş_koordinatları": { "lat": 48.9246, "lng": 2.3608 }
-        }
-      ]
-    },
-    {
-      "şarkıcı": "COLDPLAY",
-      "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
-      "uluslararası_tarihler": [
-        {
-          "id": "16001",
-          "tarih": "2024-06-08",
-          "konser_yeri": "OLYMPIC STADIUM",
-          "şehir": "ATHENS",
-          "ülke": "Yunanistan",
-          "başlangıç_koordinatları": { "lat": 37.9838, "lng": 23.7275 },
-          "gidiş_koordinatları": { "lat": 37.9838, "lng": 23.7275 }
-        },
-        {
-          "id": "16002",
-          "tarih": "2024-06-09",
-          "konser_yeri": "OLYMPIC STADIUM",
-          "şehir": "ATHENS",
-          "ülke": "Yunanistan",
-          "başlangıç_koordinatları": { "lat": 37.9838, "lng": 23.7275 },
-          "gidiş_koordinatları": { "lat": 37.9838, "lng": 23.7275 }
         }
       ]
     }

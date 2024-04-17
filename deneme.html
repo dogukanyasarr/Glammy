@@ -21,6 +21,7 @@
 </head>
 <body>
     <div id="globeViz"></div>
+    
     <div id="tooltip"></div>
 
     <script>
@@ -36,6 +37,7 @@
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcDashLength(ARC_REL_LEN)
             .arcDashGap(2)
+            .arcStartLat(turneler.uluslararası_tarihler.başlangıç_koordinatları)
             .arcDashInitialGap(1)
             .arcDashAnimateTime(FLIGHT_TIME)
             .arcsTransitionDuration(0)
@@ -71,8 +73,8 @@
                     }))
                 }));
                 console.log(turneler); // Verinin doğru şekilde işlendiğinden emin olmak için
-
-                turneler.forEach(turne => {
+                
+                /* turneler.forEach(turne => {
                     turne.uluslararası_tarihler.forEach(({ konser_yeri, şehir, ülke, başlangıç_koordinatları, gidiş_koordinatları, description }) => {
                         const { lat: startLat, lng: startLng } = başlangıç_koordinatları;
                         const { lat: endLat, lng: endLng } = gidiş_koordinatları;
@@ -86,7 +88,21 @@
                         const targetRing = { lat: endLat, lng: endLng };
                         globe.ringsData([...globe.ringsData(), targetRing]);
                     });
-                });
+                }); */
+
+                turneler[0].uluslararası_tarihler.forEach(({ konser_yeri, şehir, ülke, başlangıç_koordinatları, gidiş_koordinatları, description }) => {
+                        const { lat: startLat, lng: startLng } = başlangıç_koordinatları;
+                        const { lat: endLat, lng: endLng } = gidiş_koordinatları;
+                        
+                        const arc = { startLat, startLng, endLat, endLng, description };
+                        globe.arcsData([...globe.arcsData(), arc]);
+
+                        const srcRing = { lat: startLat, lng: startLng };
+                        globe.ringsData([...globe.ringsData(), srcRing]);
+
+                        const targetRing = { lat: endLat, lng: endLng };
+                        globe.ringsData([...globe.ringsData(), targetRing]);
+                    });
             })
             .catch(error => {
                 console.error('Veri alınamadı:', error);
