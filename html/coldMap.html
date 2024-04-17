@@ -8,8 +8,18 @@
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
     <script src="//unpkg.com/globe.gl"></script>
+    <style>
+        #buttons{
+            z-index: 1000;
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
+    <div id="buttons">
+        <button onclick="TaylorSwift()">switch singer</button>
+        
+    </div>
     <div id="globeViz"></div>
 
     <script>
@@ -72,6 +82,10 @@
             .catch(error => {
                 console.error('Veri alınamadı:', error);
             });
+
+            function TaylorSwift(){
+                window.location.href = 'map.html'
+            }
     </script>
 </body>
 </html>

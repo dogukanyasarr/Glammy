@@ -8,8 +8,19 @@
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
     <script src="//unpkg.com/globe.gl"></script>
+    <style>
+        #buttons{
+            z-index: 1000;
+            position: absolute;
+        }
+    </style>
 </head>
 <body>
+    <div id="label"></div>
+    <div id="buttons">
+        <button onclick="coldplay()">switch singer</button>
+        
+    </div>
     <div id="globeViz"></div>
 
     <script>
@@ -72,6 +83,10 @@
             .catch(error => {
                 console.error('Veri alınamadı:', error);
             });
+
+            function coldplay(){
+                window.location.href = 'coldMap.html'
+            }
     </script>
 </body>
 </html>
