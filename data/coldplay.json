@@ -4,248 +4,107 @@
             "şarkıcı": "COLDPLAY",
             "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
             "uluslararası_tarihler": [
-                  {
-                    "id": "16064",
-                    "tarih": "2024-11-01",
-                    "konser_yeri": "FORD FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "DETROIT, MICHIGAN",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3399, "lng": -83.048 }
-                  },
-                  {
-                    "id": "16065",
-                    "tarih": "2024-11-02",
-                    "konser_yeri": "FORD FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "DETROIT, MICHIGAN",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3399, "lng": -83.048 }
-                  },
-                  {
-                    "id": "16066",
-                    "tarih": "2024-11-05",
-                    "konser_yeri": "FIRSTENERGY STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CLEVELAND, OHIO",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 41.5061, "lng": -81.6995 }
-                  },
-                  {
-                    "id": "16067",
-                    "tarih": "2024-11-07",
-                    "konser_yeri": "LUCAS OIL STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "INDIANAPOLIS, INDIANA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.7601, "lng": -86.1637 }
-                  },
-                  {
-                    "id": "16068",
-                    "tarih": "2024-11-08",
-                    "konser_yeri": "LUCAS OIL STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "INDIANAPOLIS, INDIANA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.7601, "lng": -86.1637 }
-                  },
-                  {
-                    "id": "16069",
-                    "tarih": "2024-11-10",
-                    "konser_yeri": "ARROWHEAD STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "KANSAS CITY, MISSOURI",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.049, "lng": -94.4839 }
-                  },
-                  {
-                    "id": "16070",
-                    "tarih": "2024-11-12",
-                    "konser_yeri": "U.S. BANK STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "MINNEAPOLIS, MINNESOTA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 44.9738, "lng": -93.2581 }
-                  },
-                  {
-                    "id": "16071",
-                    "tarih": "2024-11-14",
-                    "konser_yeri": "SOLDIER FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CHICAGO, ILLINOIS",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 41.8623, "lng": -87.6167 }
-                  },
-                  {
-                    "id": "16072",
-                    "tarih": "2024-11-15",
-                    "konser_yeri": "SOLDIER FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CHICAGO, ILLINOIS",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 41.8623, "lng": -87.6167 }
-                  },
-                  {
-                    "id": "16073",
-                    "tarih": "2024-11-18",
-                    "konser_yeri": "LINCOLN FINANCIAL FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "PHILADELPHIA, PENNSYLVANIA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.9003, "lng": -75.1674 }
-                  },
-                  {
-                    "id": "16074",
-                    "tarih": "2024-11-19",
-                    "konser_yeri": "LINCOLN FINANCIAL FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "PHILADELPHIA, PENNSYLVANIA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.9003, "lng": -75.1674 }
-                  },
-                  {
-                    "id": "16075",
-                    "tarih": "2024-11-21",
-                    "konser_yeri": "FENWAY PARK",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "BOSTON, MASSACHUSETTS",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3464, "lng": -71.0975 }
-                  },
-                  {
-                    "id": "16076",
-                    "tarih": "2024-11-22",
-                    "konser_yeri": "FENWAY PARK",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "BOSTON, MASSACHUSETTS",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3464, "lng": -71.0975 }
-                  },
-                  {
-                    "id": "16077",
-                    "tarih": "2024-11-25",
-                    "konser_yeri": "M&T BANK STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "BALTIMORE, MARYLAND",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.278, "lng": -76.6227 }
-                  },
-                  {
-                    "id": "16078",
-                    "tarih": "2024-11-26",
-                    "konser_yeri": "M&T BANK STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "BALTIMORE, MARYLAND",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.278, "lng": -76.6227 }
-                  },
-                  {
-                    "id": "16079",
-                    "tarih": "2024-11-29",
-                    "konser_yeri": "BANK OF AMERICA STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CHARLOTTE, NORTH CAROLINA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 35.2251, "lng": -80.84 }
-                  },
-                  {
-                    "id": "16080",
-                    "tarih": "2024-11-30",
-                    "konser_yeri": "BANK OF AMERICA STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CHARLOTTE, NORTH CAROLINA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 35.2251, "lng": -80.84 }
-                  },
-                  {
-                    "id": "16081",
-                    "tarih": "2024-12-02",
-                    "konser_yeri": "MERCEDES-BENZ STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "ATLANTA, GEORGIA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 33.7554, "lng": -84.39 }
-                  },
-                  {
-                    "id": "16082",
-                    "tarih": "2024-12-03",
-                    "konser_yeri": "MERCEDES-BENZ STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "ATLANTA, GEORGIA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 33.7554, "lng": -84.39 }
-                  },
-                  {
-                    "id": "16083",
-                    "tarih": "2024-12-05",
-                    "konser_yeri": "NASHVILLE NISSAN STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "NASHVILLE, TENNESSEE",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 36.1663, "lng": -86.7713 }
-                  },
-                  {
-                    "id": "16084",
-                    "tarih": "2024-12-07",
-                    "konser_yeri": "FORD FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "DETROIT, MICHIGAN",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3399, "lng": -83.048 }
-                  },
-                  {
-                    "id": "16085",
-                    "tarih": "2024-12-08",
-                    "konser_yeri": "FORD FIELD",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "DETROIT, MICHIGAN",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 42.3399, "lng": -83.048 }
-                  },
-                  {
-                    "id": "16086",
-                    "tarih": "2024-12-11",
-                    "konser_yeri": "FIRSTENERGY STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "CLEVELAND, OHIO",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 41.5061, "lng": -81.6995 }
-                  },
-                  {
-                    "id": "16087",
-                    "tarih": "2024-12-13",
-                    "konser_yeri": "LUCAS OIL STADIUM",
-                    "destekleyen_sanatçı": "COLDPLAY",
-                    "şehir": "INDIANAPOLIS, INDIANA",
-                    "ülke": "ABD",
-                    "başlangıç_koordinatları": { "lat": 34.0522, "lng": -118.2437 },
-                    "gidiş_koordinatları": { "lat": 39.7601, "lng": -86.1637 }
-                  }
-              ]
-              
+                {
+                    "id": "16001",
+                    "tarih": "2024-06-08",
+                    "konser_yeri": "OLYMPIC STADIUM",
+                    "sehir": "ATHENS",
+                    "ülke": "Yunanistan",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 37.9838, "lng": 23.7275}
+                },
+                {
+                    "id": "16002",
+                    "tarih": "2024-06-09",
+                    "konser_yeri": "OLYMPIC STADIUM ",
+                    "sehir": "ATHENS",
+                    "ülke": "Yunanistan",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 37.9838, "lng": 23.7275}
+                },
+                {
+                    "id": "16003",
+                    "tarih": "2024-06-12",
+                    "konser_yeri": "ARENA NAȚIONALĂ",
+                    "sehir": "BUCHAREST",
+                    "ülke": "Romanya",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 44.4268, "lng": 26.1025}
+                },
+                {
+                    "id": "16004",
+                    "tarih": "2024-06-13",
+                    "konser_yeri": "ARENA NAȚIONALĂ",
+                    "sehir": "BUCHAREST",
+                    "ülke": "Romanya",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 44.4268, "lng": 26.1025}
+                },
+                {
+                    "id": "16005",
+                    "tarih": "2024-06-16",
+                    "konser_yeri": "PUSKÁS ARÉNA",
+                    "sehir": "BUDAPEST",
+                    "ülke": "Macaristan",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 47.4979, "lng": 19.0402}
+                },
+                {
+                    "id": "16006",
+                    "tarih": "2024-06-18",
+                    "konser_yeri": "PUSKÁS ARÉNA",
+                    "sehir": "BUDAPEST",
+                    "ülke": "Macaristan",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 47.4979, "lng": 19.0402}
+                },
+                {
+                    "id": "16007",
+                    "tarih": "2024-06-19",
+                    "konser_yeri": "PUSKÁS ARÉNA",
+                    "sehir": "BUDAPEST",
+                    "ülke": "Macaristan",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 47.4979, "lng": 19.0402}
+                },
+                {
+                    "id": "16008",
+                    "tarih": "2024-06-22",
+                    "konser_yeri": "GROUPAMA STADIUM",
+                    "sehir": "LYON",
+                    "ülke": "Fransa",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 45.7772, "lng": 4.8554}
+                },
+                {
+                    "id": "16009",
+                    "tarih": "2024-06-23",
+                    "konser_yeri": "GROUPAMA STADIUM",
+                    "sehir": "LYON",
+                    "ülke": "Fransa",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 45.7772, "lng": 4.8554}
+                },
+                {
+                    "id": "16010",
+                    "tarih": "2024-06-25",
+                    "konser_yeri": "GROUPAMA STADIUM",
+                    "sehir": "LYON",
+                    "ülke": "Fransa",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 45.7772, "lng": 4.8554}
+                },
+                {
+                    "id": "16011",
+                    "tarih": "2024-06-29",
+                    "konser_yeri": "GLASTONBURY FESTIVAL",
+                    "sehir": "PILTON, SOMERSET",
+                    "ülke": "Birleşik Krallık",
+                    "başlangıç_koordinatları": {"lat": 40.7128, "lng": -74.0060},
+                    "gidiş_koordinatları": {"lat": 51.1568, "lng": -2.5879}
+                }
+
+            ]
         }
     ]
 }
