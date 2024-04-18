@@ -1,29 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taylor Swift Concert Visualization</title>
-    <style> body { margin: 0; } </style>
-    <script src="//unpkg.com/d3-dsv"></script>
-    <script src="//unpkg.com/index-array-by"></script>
-    <script src="//unpkg.com/globe.gl"></script>
-    <style>
-        #buttons{
-            z-index: 1000;
-            position: absolute;
-        }
-    </style>
-</head>
-<body>
-    <div id="buttons">
-        <button onclick="TaylorSwift()">switch singer</button>
-        
-    </div>
-    <div id="globeViz"></div>
-
-    <script>
-        const ARC_REL_LEN = 0.4; // relative to whole arc
+const ARC_REL_LEN = 0.4; // relative to whole arc
         const FLIGHT_TIME = 1000;
         const NUM_RINGS = 3;
         const RINGS_MAX_R = 5; // deg
@@ -31,7 +6,8 @@
 
         const globe = Globe()
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-            .arcColor(() => 'darkOrange')
+            .backgroundImageUrl('//unpkg.com/three-globe@2.31.0/example/img/earth-dark.jpg')
+            .arcColor(() => 'white')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcDashLength(ARC_REL_LEN)
             .arcDashGap(2)
@@ -84,8 +60,5 @@
             });
 
             function TaylorSwift(){
-                window.location.href = 'map.html'
+                window.location.href = 'taylorMap.html'
             }
-    </script>
-</body>
-</html>

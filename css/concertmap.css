@@ -1,0 +1,41 @@
+body{ 
+    margin: 0; 
+} 
+#buttons{
+    z-index: 1000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 2%;
+}
+#buttons button{
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 190%;
+}
+#singer{
+    z-index: 1000;
+    position: absolute;
+    display: flex; /* İçeriğini yatay olarak hizala */
+    align-items: center; /* Dikey hizalama */
+}
+#singer img{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+h2{
+    margin-top: -20px;
+    color: white;            
+}
+.baslik{
+    font-size: 35px;
+}
+.alt-baslik{
+    font-size: 30px;
+    margin-top: -30px;
+    text-align: center;
+}
