@@ -102,7 +102,43 @@
             "ülke": "Birleşik Krallık",
             "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
             "gidiş_koordinatları": { "lat": 51.1568, "lng": -2.5879 }
-          }
+          },
+          {
+            "id": "16005",
+            "tarih": "2024-06-16",
+            "konser_yeri": "MEXI ARENA",
+            "sehir": "Mexico City",
+            "ülke": "Meksika",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 23.6345, "lng": -102.5528 }
+          },
+          {
+            "id": "16005",
+            "tarih": "2024-06-16",
+            "konser_yeri": "BAKU ARENA",
+            "sehir": "BAKÜ",
+            "ülke": "Azerbaycan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 40.4093, "lng": 49.8671 }
+          },
+          {
+            "id": "16006",
+            "tarih": "2024-07-20",
+            "konser_yeri": "Oslo Arena",
+            "sehir": "OSLO",
+            "ülke": "Norveç",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 59.9139, "lng": 10.7522 }
+          },
+          {
+            "id": "16007",
+            "tarih": "2024-08-10",
+            "konser_yeri": "Kopenhag Stadyumu",
+            "sehir": "KOPENHAG",
+            "ülke": "Danimarka",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 55.6761, "lng": 12.5683 }
+          }          
         ]
       },
       {
@@ -218,7 +254,43 @@
             "ülke": "Switzerland",
             "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
             "gidiş_koordinatları": { "lat": 47.3769, "lng": 8.5417 }
-          }
+          },
+          {
+            "id": "16005",
+            "tarih": "2024-06-16",
+            "konser_yeri": "MEXI ARENA",
+            "sehir": "Mexico City",
+            "ülke": "Meksika",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 23.6345, "lng": -102.5528 }
+          },
+          {
+            "id": "16005",
+            "tarih": "2024-06-16",
+            "konser_yeri": "BAKU ARENA",
+            "sehir": "BAKÜ",
+            "ülke": "Azerbaycan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 40.4093, "lng": 49.8671 }
+          },
+          {
+            "id": "16006",
+            "tarih": "2024-07-20",
+            "konser_yeri": "Oslo Arena",
+            "sehir": "OSLO",
+            "ülke": "Norveç",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 59.9139, "lng": 10.7522 }
+          },
+          {
+            "id": "16007",
+            "tarih": "2024-08-10",
+            "konser_yeri": "Kopenhag Stadyumu",
+            "sehir": "KOPENHAG",
+            "ülke": "Danimarka",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 55.6761, "lng": 12.5683 }
+          }   
         ]
       }
     ]

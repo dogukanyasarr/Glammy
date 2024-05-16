@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONSERLER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/concertmap.css">
+    <link rel="shortcut icon" href="../images/grammy.ico" type="image/x-icon">
+      <script src="//unpkg.com/d3"></script>
+
+    <script src="//unpkg.com/globe.gl"></script>
+    <!--<script src="../../dist/globe.gl.js"></script>-->
+    <style> body { margin: 0; } </style>
+    <style>
+        /* Dünya haritasını bütün sayfayı kaplayacak şekilde ayarla */
+        #globeViz {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Butonların arkasında kalmasını sağla */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid"> <!-- Container'ı fluid olarak ayarla -->
+        <div id="buttons-container" class="row mt-3">
+            <!-- Dropdown buton burada olacak -->
+            <div class="col-12">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sanatçılar
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <!-- Sanatçı butonları buraya eklenecek -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="concert-info" class="row mt-3">
+            <!-- Konser bilgileri burada görüntülenecek -->
+        </div>
+    </div>
+
+    <div id="globeViz"></div> <!-- Harita div'i -->
+
+    <script>
+        const jsonData = {
+            "turneler": [
+                {
+                    "şarkıcı": "COLDPLAY",
+                    "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
+                    "uluslararası_tarihler": [
+                    {
+  "id": "16007",
+  "tarih": "2024-08-10",
+  "konser_yeri": "Kopenhag Stadyumu",
+  "sehir": "KOPENHAG",
+  "ülke": "Danimarka",
+  "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+  "gidiş_koordinatları": { "lat": 55.6761, "lng": 12.5683 }
+}
+          
+                    ]
+                },
+                {
+                    "şarkıcı": "TAYLOR SWIFT",
+                    "turne_adı": "THE ERAS TOUR",
+                    "uluslararası_tarihler": [
+                        {
+                            "id": 1001,
+                            "tarih": "THU, MAY 09, 2024",
+                            "konser_yeri": "PARIS LA DÉFENSE ARENA",
+                            "destekleyen_sanatçı": "Paramore",
+                            "şehir": "Paris",
+                            "ülke": "France",
+                            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+                            "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+                        }
+                    ]
+                }
+            ]
+        };
+
+        const turneler = jsonData.turneler;
+
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+        const concertInfo = document.getElementById('concert-info');
+
+        turneler.forEach(turne => {
+            const button = document.createElement('a');
+            button.className = 'dropdown-item';
+            button.href = '#';
+            button.innerText = turne.şarkıcı;
+            button.addEventListener('click', () => displayConcerts(turne));
+            dropdownMenu.appendChild(button);
+        });
+
+        // Yeni buton ekle
+        const mapButton = document.createElement('a');
+        mapButton.className = 'dropdown-item';
+        mapButton.href = '#';
+        mapButton.innerText = 'Haritada Göster';
+        mapButton.addEventListener('click', () => showOnMap(jsonData.turneler));
+        dropdownMenu.appendChild(mapButton);
+
+        function displayConcerts(artist) {
+            concertInfo.innerHTML = ''; // Önceki konser bilgilerini temizle
+            // Önceki ışınları temizle
+            globe.arcsData([]);
+            globe.ringsData([]);
+
+            artist.uluslararası_tarihler.forEach(({ konser_yeri, şehir, ülke, başlangıç_koordinatları, gidiş_koordinatları }) => {
+                const concertDiv = document.createElement('div');
+                concertDiv.className = 'col-12';
+                concertDiv.innerHTML = `
+                                        <div class="card mt-2" style="width: 18rem;">
+                                            <img src="../images/${artist.şarkıcı.toLowerCase()}.jpg" class="card-img-top" alt="${artist.şarkıcı} Image">
+                                            <div class="card-body">
+                                                <h5 class="card-title">${artist.şarkıcı}</h5>
+                                                <p class="card-text">${artist.turne_adı}</p>
+                                                <button class="btn btn-success mr-2" onclick="buyTickets()">SPOTIFY</button>
+                                                <button class="btn btn-info mr-2" onclick="shareConcert()">Paylaş</button>
+                                                <button class="btn btn-danger" onclick="addCalendar()">Takvime Ekle</button>
+                                            </div>
+                                        </div>`;
+
+                concertInfo.appendChild(concertDiv);
+            });
+
+            // Haritada göster
+            showOnMap([artist]);
+        }
+
+        // Globe bileşenini başlat
+        const globe = Globe()
+            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+            .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')(document.getElementById('globeViz'));
+
+        function showOnMap(artists) {
+            // Önceki ışınları temizle
+            globe.arcsData([]);
+            globe.ringsData([]);
+
+            artists.forEach(artist => {
+                artist.uluslararası_tarihler.forEach(({ başlangıç_koordinatları, gidiş_koordinatları }) => {
+                    const arc = { startLat: başlangıç_koordinatları.lat, startLng: başlangıç_koordinatları.lng, endLat: gidiş_koordinatları.lat, endLng: gidiş_koordinatları.lng };
+                    globe.arcsData([...globe.arcsData(), arc]);
+
+                    const srcRing = { lat: başlangıç_koordinatları.lat, lng: başlangıç_koordinatları.lng };
+                    globe.ringsData([...globe.ringsData(), srcRing]);
+
+                    const targetRing = { lat: gidiş_koordinatları.lat, lng: gidiş_koordinatları.lng };
+                    globe.ringsData([...globe.ringsData(), targetRing]);
+                });
+            });
+        }
+    </script>
+
+    <script src="../javascript/taylormap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
