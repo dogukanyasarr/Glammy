@@ -1,0 +1,222 @@
+{
+    "turTarihleri": [
+      {
+        "şarkıcı": "DRAKE",
+        "turne_adı": "IT'S ALL A BLUR TOUR",
+        "uluslararası_tarihler": [
+            {
+                "id": "13001",
+                "tarih": "2024-02-02",
+                "konser_yeri": "Amalie Arena",
+                "sehir": "Tampa, Florida",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13002",
+                "tarih": "2024-02-04",
+                "konser_yeri": "Amalie Arena",
+                "sehir": "Tampa, Florida",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13003",
+                "tarih": "2024-02-07",
+                "konser_yeri": "Bridgestone Arena",
+                "sehir": "Nashville, Tennessee",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13004",
+                "tarih": "2024-02-08",
+                "konser_yeri": "Bridgestone Arena",
+                "sehir": "Nashville, Tennessee",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13005",
+                "tarih": "2024-02-12",
+                "konser_yeri": "Enterprise Center",
+                "sehir": "St. Louis, Missouri",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13006",
+                "tarih": "2024-02-13",
+                "konser_yeri": "Enterprise Center",
+                "sehir": "St. Louis, Missouri",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13007",
+                "tarih": "2024-02-16",
+                "konser_yeri": "PPG Paints Arena",
+                "sehir": "Pittsburgh, Pensilvanya",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13008",
+                "tarih": "2024-02-17",
+                "konser_yeri": "PPG Paints Arena",
+                "sehir": "Pittsburgh, Pensilvanya",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13009",
+                "tarih": "2024-02-20",
+                "konser_yeri": "Schottenstein Center",
+                "sehir": "Columbus, Ohio",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13010",
+                "tarih": "2024-02-21",
+                "konser_yeri": "Schottenstein Center",
+                "sehir": "Columbus, Ohio",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13011",
+                "tarih": "2024-02-24",
+                "konser_yeri": "Rocket Mortgage Fieldhouse",
+                "sehir": "Cleveland, Ohio",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13012",
+                "tarih": "2024-02-25",
+                "konser_yeri": "Rocket Mortgage Fieldhouse",
+                "sehir": "Cleveland, Ohio",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13013",
+                "tarih": "2024-02-27",
+                "konser_yeri": "KeyBank Center",
+                "sehir": "Buffalo, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13014",
+                "tarih": "2024-02-28",
+                "konser_yeri": "KeyBank Center",
+                "sehir": "Buffalo, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13015",
+                "tarih": "2024-03-02",
+                "konser_yeri": "T-Mobile Center",
+                "sehir": "Kansas City, Missouri",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13016",
+                "tarih": "2024-03-03",
+                "konser_yeri":"T-Mobile Center",
+                "sehir":  "Kansas City, Missouri",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13017",
+                "tarih": "2024-03-06",
+                "konser_yeri":"Smoothie King Center",
+                "sehir":  "New Orleans, LA",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13018",
+                "tarih": "2024-03-07",
+                "konser_yeri": "Smoothie King Center",
+                "sehir":"New Orleans, Louisiana", 
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13019",
+                "tarih": "2024-03-10",
+                "konser_yeri": "Rupp Arena",
+                "sehir": "Lexington, Kentucky",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13020",
+                "tarih": "2024-03-14",
+                "konser_yeri":"Frost Bank Center",
+                "sehir":  "San Antonio, Teksas",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13021",
+                "tarih": "2024-03-15",
+                "konser_yeri": "Frost Bank Center",
+                "sehir": "San Antonio, Teksas",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13022",
+                "tarih": "2024-03-18",
+                "konser_yeri": "Paycom Center",
+                "sehir": "Oklahoma City, Oklahoma",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13023",
+                "tarih": "2024-03-19",
+                "konser_yeri":  "Paycom Center",
+                "sehir":"Oklahoma City, Oklahoma",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13024",
+                "tarih": "2024-03-23",
+                "konser_yeri": "Amerant Bank Arena",
+                "sehir": "Sunrise, Florida",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13025",
+                "tarih": "2024-03-24",
+                "konser_yeri": "Amerant Bank Arena",
+                "sehir": "Sunrise, Florida",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13026",
+                "tarih": "2024-03-28",
+                "konser_yeri":"UBS Arena", 
+                "sehir": "Elmont, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13027",
+                "tarih": "2024-03-29",
+                "konser_yeri":"UBS Arena",
+                "sehir": "Elmont, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13028",
+                "tarih": "2024-03-31",
+                "konser_yeri":"Bryce Jordan Center",
+                "sehir":"State College, Pensilvanya",
+                "ülke":"Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13029",
+                "tarih": "2024-04-04",
+                "konser_yeri":"Prudential Center",
+                "sehir":"Newark, New Jersey",
+                "ülke":"Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "13030",
+                "tarih":"2024-04-05",
+                "konser_yeri":"Prudential Center",
+                "sehir":"Newark, New Jersey",
+                "ülke":"Amerika Birleşik Devletleri"
+            }
+        ]
+    }
+    
+    ]
+  }
+  

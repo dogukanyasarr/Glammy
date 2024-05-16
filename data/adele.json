@@ -1,0 +1,221 @@
+{
+   "turneler": [
+    {
+        "şarkıcı": "ADELE",
+        "turne_adı": "ADELE TOUR 2024",
+        "uluslararası_tarihler": [
+          {
+            "id": 11001,
+            "tarih": "2024-05-17",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11002,
+            "tarih": "2024-05-18",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11003,
+            "tarih": "2024-05-24",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11004,
+            "tarih": "2024-05-25",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11005,
+            "tarih": "2024-05-31",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11006,
+            "tarih": "2024-06-01",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11007,
+            "tarih": "2024-06-07",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11008,
+            "tarih": "2024-06-08",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11009,
+            "tarih": "2024-06-14",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11010,
+            "tarih": "2024-06-15",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11011,
+            "tarih": "2024-10-25",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11012,
+            "tarih": "2024-10-26",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11013,
+            "tarih": "2024-11-01",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11014,
+            "tarih": "2024-11-02",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11015,
+            "tarih": "2024-11-08",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+          },
+          {
+            "id": 11016,
+            "tarih": "2024-11-09",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+        },
+        {
+            "id": 11017,
+            "tarih": "2024-11-15",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+        },
+        {
+            "id": 11018,
+            "tarih": "2024-11-16",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+        },
+        {
+            "id": 11019,
+            "tarih": "2024-11-22",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "Amerika Birleşik Devletleri"
+        },
+        {
+            "id": 11020,
+            "tarih": "2024-11-23",
+            "konser_yeri": "The Colosseum at Caesars Palace",
+            "şehir": "Las Vegas",
+            "ülke": "United States"
+        },
+        {
+            "id": 11021,
+            "tarih": "2024-08-02",
+            "konser_yeri": "Open Air Arena - Messe Munchen",
+            "şehir": "München",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11022,
+            "tarih": "2024-08-03",
+            "konser_yeri": "Open Air Arena - Messe Munchen",
+            "şehir": "München",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11023,
+            "tarih": "2024-08-09",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11024,
+            "tarih": "2024-08-10",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11025,
+            "tarih": "2024-08-14",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11026,
+            "tarih": "2024-08-16",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11027,
+            "tarih": "2024-08-23",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11028,
+            "tarih": "2024-08-24",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11029,
+            "tarih": "2024-08-30",
+            "konser_yeri": "Open Air Arena - Messe München",
+            "şehir": "Munich",
+            "ülke": "Almanya"
+        },
+        {
+            "id": 11030,
+            "tarih": "2024-08-31",
+            "konser_yeri": "Open Air Arena - Messe Munchen",
+            "şehir": "München",
+            "ülke": "Almanya"
+        }
+      ]
+    }
+   ]
+}
+  

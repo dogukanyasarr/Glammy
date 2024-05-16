@@ -6,7 +6,7 @@ const ARC_REL_LEN = 0.4; // relative to whole arc
 
         const globe = Globe()
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-            .backgroundImageUrl('//unpkg.com/three-globe@2.31.0/example/img/earth-dark.jpg')
+            .backgroundImageUrl('https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png')
             .arcColor(() => 'white')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcDashLength(ARC_REL_LEN)

@@ -11,8 +11,9 @@ body{
 }
 #buttons button{
     margin-bottom: 20px;
-    padding: 15px;
-    width: 190%;
+    padding: 25px;
+    width: 200%;
+    font-size: large;
 }
 #singer{
     z-index: 1000;
@@ -39,3 +40,131 @@ h2{
     margin-top: -30px;
     text-align: center;
 }
+iframe{
+    z-index: 1000;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    transform: translateY(-40%);
+    margin-right: 20px;
+    height: 90%;
+}
+#spotify-iframe {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#spotify-iframe.active {
+    opacity: 1;
+}
+#concertheader{
+    text-align: center;
+}
+#concertBox{
+    z-index: 1000;
+    overflow-y: auto;
+}
+/* Dikey scroll çubuğu */
+#concertBox::-webkit-scrollbar {
+    width: 10px; /* Scroll çubuğunun genişliği */
+}
+/* Dikey scroll çubuğu izdüşümü */
+#concertBox::-webkit-scrollbar-thumb {
+    background-color: lightblue; /* Scroll çubuğu rengi */
+    border-radius: 5px; /* Scroll çubuğu kenar yarıçapı */
+}
+
+/* Dikey scroll çubuğu kenarlık */
+#concertBox::-webkit-scrollbar-track {
+    background-color: rgb(194, 225, 235); /* Scroll çubuğu arkaplan rengi */
+}
+#concertBox {
+    background-color: rgba(173, 216, 230, 0.9); /* Yarı saydam hafif mavi arka plan */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    position: fixed;
+    top: 40%;
+    right: 0;
+    transform: translateY(-40%);
+    margin-right: 20px;
+    height: 90%;
+    width: 27%;
+}
+/* concertList'e uygulanacak CSS stilleri */
+#concertList {
+    list-style: none; /* Liste noktalarını gizler */
+    padding: 0; /* Liste içi boşluğu kaldırır */
+}
+
+/* Her konser için liste öğesi için uygulanacak CSS stilleri */
+#concertList li {
+    margin-bottom: 10px; /* Liste öğeleri arasında boşluk bırakır */
+}
+
+/* Tarih için uygulanacak CSS stilleri */
+#concertList li .date {
+    font-weight: bold; /* Tarih metnini kalın yapar */
+}
+
+/* Konser yeri, şehir ve ülke için uygulanacak CSS stilleri */
+#concertList li .location {
+    font-size: 14px; /* Konser yeri, şehir ve ülke metinlerini küçültür */
+    color: #666; /* Metin rengini gri yapar */
+}
+/* Modal stil ayarları */
+.modal {
+    
+}
+
+/* Modal içeriği */
+.modal-content {
+    display: none; /* Modal başlangıçta görünmez */
+    position: fixed;
+    z-index: 1000;
+    right: 0;
+    top: 10%;
+    width: 35%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 60px;
+    background-color: #000000;
+    padding: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Dikey ortalama */
+    justify-content: center; /* Yatay ortalama */
+    height: 70%;
+}
+
+/* Kapatma butonu stili */
+.close {
+    color: 'black';
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Sanatçı butonları */
+.modal-content button {
+    align-items: center;
+    display: block;
+    width: 50%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

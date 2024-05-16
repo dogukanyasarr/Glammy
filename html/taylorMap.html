@@ -21,21 +21,45 @@
             <h2 class="baslik">TAYLOR SWIFT</h2> <br>
             <h2 class="alt-baslik"><em>The Eras Tour</em></h2>
         </div>
+        <div id="spotify-iframe">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/06HL4z0CvFAxyc27GXpf02?utm_source=generator" width="400px" height="400px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div id="concertBox" style="display: none;">
+            <h3 id="concertheader">Konserler</h3>
+            <ul id="concertList">
+                <!-- Konserler buraya dinamik olarak eklenecek -->
+            </ul>
+        </div>
     </div>
+    <div id="concertModal">
+        <div class="modal-content">
+          <span class="close" onclick="closeConcertModal()">&times;</span>
+          <h2>Sanatçı Konserleri</h2>
+          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 1 Konseri</button>
+          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 2 Konseri</button>
+          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 3 Konseri</button>
+          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 4 Konseri</button>
+          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 5 Konseri</button>         
+        </div>
+      </div>
+    
 
     <div id="buttons">
         <button type="button" class="btn btn-outline-light button-1">Taylor Swift Kimdir?</button>
-        <button type="button" class="btn btn-outline-light button-2">KONSERLER</button>
-        <button type="button" class="btn btn-outline-light button-3">Spotify</button>
-        <button onclick="coldplay()" type="button" class="btn btn-outline-light button-4">Coldplay</button>
+        <button type="button" class="btn btn-outline-light button-2"onclick="showConcerts()">KONSERLER</button>
+        <button type="button" class="btn btn-outline-light button-3" onclick="toggleSpotify()">Spotify</button>
+        <button type="button" class="btn btn-outline-light button-4" onclick="showConcertModal()">SANATÇILAR</button>
 
     </div>
     <div id="globeViz"></div>
+    
 
     <script src="../javascript/taylormap.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="../javascript/taylorbuttons.js"></script>
 </body>
 </html>

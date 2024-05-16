@@ -1,0 +1,211 @@
+{
+    "turneler": [
+        {
+            "şarkıcı": "RED HOT CHILI PEPPERS",
+            "turne_adı": "UNLIMITED LOVE TOUR",
+            "uluslararası_tarihler": [
+                {
+                    "id": 20001,
+                    "tarih": "2024-05-18",
+                    "konser_yeri": "Tokyo Dome",
+                    "şehir": "Tokyo",
+                    "ülke": "Japonya"
+                },
+                {
+                    "id": 20002,
+                    "tarih": "2024-05-20",
+                    "konser_yeri": "Tokyo Dome",
+                    "şehir": "Tokyo",
+                    "ülke": "Japonya"
+                },
+                {
+                    "id": 20003,
+                    "tarih": "2024-05-28",
+                    "konser_yeri": "RV Inn Style Resorts Amphitheater",
+                    "destekleyen_sanatçılar": ["Ken Carson", "IRONTOM"],
+                    "şehir": "Ridgefield",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20004,
+                    "tarih": "2024-05-31",
+                    "konser_yeri": "The Gorge",
+                    "destekleyen_sanatçılar": ["Ken Carson", "IRONTOM"],
+                    "şehir": "George",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20005,
+                    "tarih": "2024-06-02",
+                    "konser_yeri": "Toyota Amphitheater",
+                    "destekleyen_sanatçılar": ["Ken Carson", "IRONTOM"],
+                    "şehir": "Wheatland",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20006,
+                    "tarih": "2024-06-05",
+                    "konser_yeri": "USANA Amphitheatre",
+                    "destekleyen_sanatçılar": ["Kid Cudi", "IRONTOM"],
+                    "şehir": "Salt Lake City",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20007,
+                    "tarih": "2024-06-07",
+                    "konser_yeri": "Isleta Amphitheater",
+                    "destekleyen_sanatçılar": ["Wand", "IRONTOM"],
+                    "şehir": "Albuquerque",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20008,
+                    "tarih": "2024-06-15",
+                    "konser_yeri": "The Farm",
+                    "festival": "Bonnaroo",
+                    "şehir": "Manchester",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20009,
+                    "tarih": "2024-06-18",
+                    "konser_yeri": "iTHINK Financial Amphitheatre",
+                    "destekleyen_sanatçılar": ["IRONTOM"],
+                    "şehir": "West Palm Beach",
+                    "ülke": "Amerika Birleşik Devletleri"
+                },
+                {
+                    "id": 20010,
+                    "tarih": "2024-06-21",
+                    "konser_yeri": "MIDFLORIDA Credit Union Amphitheatre",
+                    "destekleyen_sanatçılar": ["Ice Cube", "IRONTOM"],
+                    "şehir": "Tampa",
+                    "ülke": "Amerika Birleşik Devletleri"
+                },
+                {
+                    "id": 20011,
+                    "tarih": "2024-06-23",
+                    "konser_yeri": "Hard Rock Live",
+                    "destekleyen_sanatçılar": ["Ice Cube", "IRONTOM"],
+                    "şehir": "Hollywood",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20012,
+                    "tarih": "2024-06-26",
+                    "konser_yeri": "Coastal Credit Union Music Park",
+                    "destekleyen_sanatçılar": ["Ice Cube", "IRONTOM"],
+                    "şehir": "Raleigh",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20013,
+                    "tarih": "2024-06-28",
+                    "konser_yeri": "Veteran's United Home Loans Amphitheater",
+                    "destekleyen_sanatçılar": ["Ice Cube", "IRONTOM"],
+                    "şehir": "Virginia Beach",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20014,
+                    "tarih": "2024-07-02",
+                    "konser_yeri": "The Pavilion at Star Lake",
+                    "destekleyen_sanatçılar": ["Kid Cudi", "IRONTOM"],
+                    "şehir": "Burgettstown",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20015,
+                    "tarih": "2024-07-05",
+                    "konser_yeri": "Riverbend Music Center",
+                    "destekleyen_sanatçılar": ["IRONTOM"],
+                    "şehir": "Cincinnati",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20016,
+                    "tarih": "2024-07-12",
+                    "konser_yeri": "Darien Lake Amphitheater",
+                    "destekleyen_sanatçılar": ["Wand", "IRONTOM"],
+                    "şehir": "Darien Center",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20017,
+                    "tarih": "2024-07-15",
+                    "konser_yeri": "Budweiser Stage",
+                    "destekleyen_sanatçılar": ["Wand", "IRONTOM"],
+                    "şehir": "Toronto",
+                    "ülke": "Kanada"
+                    
+                },
+                {
+                    "id": 20018,
+                    "tarih": "2024-07-17",
+                    "konser_yeri": "Budweiser Stage",
+                    "destekleyen_sanatçılar": ["Seun Kuti", "IRONTOM"],
+                    "şehir": "Toronto",
+                    "ülke": "Kanada"
+                   
+                },
+                {
+                    "id": 20019,
+                    "tarih": "2024-07-20",
+                    "konser_yeri": "Harriet Island Regional Park",
+                    "festival": "Minnesota Yacht Club Festival",
+                    "şehir": "St. Paul",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20020,
+                    "tarih": "2024-07-22",
+                    "konser_yeri": "Blossom Music Center",
+                    "destekleyen_sanatçılar": ["Seun Kuti", "IRONTOM"],
+                    "şehir": "Cuyahoga Falls",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20021,
+                    "tarih": "2024-07-25",
+                    "konser_yeri": "Ruoff Music Center",
+                    "destekleyen_sanatçılar": ["Otoboke Beaver", "IRONTOM"],
+                    "şehir": "Noblesville",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20022,
+                    "tarih": "2024-07-27",
+                    "konser_yeri": "Veterans Park",
+                    "festival": "Harley-Davidson Homecoming Festival",
+                    "şehir": "Milwaukee",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                },
+                {
+                    "id": 20023,
+                    "tarih": "2024-07-30",
+                    "konser_yeri": "Hollywood Casino Amphitheatre",
+                    "destekleyen_sanatçılar": ["Otoboke Beaver", "IRONTOM"],
+                    "şehir": "St. Louis",
+                    "ülke": "Amerika Birleşik Devletleri"
+                    
+                }
+            ]
+        }
+    ]
+}

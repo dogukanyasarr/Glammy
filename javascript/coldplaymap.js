@@ -6,7 +6,7 @@ const ARC_REL_LEN = 0.4; // relative to whole arc
 
         const globe = Globe()
             .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-            .backgroundImageUrl('//unpkg.com/three-globe@2.31.0/example/img/earth-dark.jpg')
+            .backgroundImageUrl('https://unpkg.com/three-globe@2.31.0/example/img/night-sky.png')
             .arcColor(() => 'white')
             .pointOfView({ lat: 39.9334, lng: 32.8597, altitude: 2 })
             .arcDashLength(ARC_REL_LEN)
@@ -14,7 +14,7 @@ const ARC_REL_LEN = 0.4; // relative to whole arc
             .arcDashInitialGap(1)
             .arcDashAnimateTime(FLIGHT_TIME)
             .arcsTransitionDuration(0)
-            .ringColor(() => t => `rgba(255,100,50,${1-t})`)
+            .ringColor(() => t => `rgba(255, 255, 255, ${1 - t})`)
             .ringMaxRadius(RINGS_MAX_R)
             .ringPropagationSpeed(RING_PROPAGATION_SPEED)
             .ringRepeatPeriod(FLIGHT_TIME * ARC_REL_LEN / NUM_RINGS)

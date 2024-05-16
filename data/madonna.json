@@ -1,0 +1,66 @@
+{
+    "turneler": [
+    {
+    "şarkıcı": "MADONNA",
+    "turne_adı": "THE CELEBRATION TOUR",
+    "uluslararası_tarihler": [
+    {
+    "id": "17001",
+    "tarih": "2024-04-09",
+    "konser_yeri": "Kaseya Center",
+    "sehir": "Miami,Florida",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17002",
+    "tarih": "2024-04-14",
+    "konser_yeri": "Moody Center",
+    "sehir": "Austin,Texas",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17003",
+    "tarih": "2024-04-15",
+    "konser_yeri": "Moody Center",
+    "sehir": "Austin,Texas",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17004",
+    "tarih": "2024-04-20",
+    "konser_yeri": "Palacio De Los Deportes",
+    "sehir": "Mexico City,Mexico",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17005",
+    "tarih": "2024-04-21",
+    "konser_yeri": "Palacio De Los Deportes",
+    "sehir": "Mexico City,Mexico",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17006",
+    "tarih": "2024-04-23",
+    "konser_yeri": "Palacio De Los Deportes",
+    "sehir": "Mexico City,Mexico",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17007",
+    "tarih": "2024-04-24",
+    "konser_yeri": "Palacio De Los Deportes",
+    "sehir": "Mexico City,Mexico",
+    "ülke": "Amerika Birleşik Devletleri"
+    },
+    {
+    "id": "17008",
+    "tarih": "2024-04-26",
+    "konser_yeri": "Palacio De Los Deportes,",
+    "sehir": "Mexico City,Mexico",
+    "ülke": "Amerika Birleşik Devletleri"
+    }
+    ]
+    }
+    ]
+    }

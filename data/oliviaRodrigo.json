@@ -1,0 +1,368 @@
+{
+  "turneler":[
+    {
+        "şarkıcı": "OLIVIA RODRIGO",
+        "turne_adı": "GUTS WORLD TOUR",
+        "uluslararası_tarihler": [
+            {
+                "id": "14001",
+                "tarih": "2024-04-08",
+                "konser_yeri": "Madison Square Garden",
+                "sehir": "New York, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14002",
+                "tarih": "2024-04-09",
+                "konser_yeri": "Madison Square Garden",
+                "sehir": "New York, New York",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14003",
+                "tarih": "2024-04-30",
+                "konser_yeri": "3Arena",
+                "sehir": "Dublin",
+                "ülke": "İrlanda"
+            },
+            {
+                "id": "14004",
+                "tarih": "2024-05-01",
+                "konser_yeri": "3Arena",
+                "sehir": "Dublin",
+                "ülke": "İrlanda"
+            },
+            {
+                "id": "14005",
+                "tarih": "2024-05-03",
+                "konser_yeri": "Co-op Live",
+                "sehir": "Manchester, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14006",
+                "tarih": "2024-05-04",
+                "konser_yeri": "Co-op Live",
+                "sehir": "Manchester, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14007",
+                "tarih": "2024-05-07",
+                "konser_yeri": "OVO Hydro",
+                "sehir": "Glasgow, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14008",
+                "tarih": "2024-05-08",
+                "konser_yeri": "OVO Hydro",
+                "sehir": "Glasgow, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14009",
+                "tarih": "2024-05-10",
+                "konser_yeri": "Utilita Arena Birmingham",
+                "sehir": "Birmingham, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14010",
+                "tarih": "2024-05-11",
+                "konser_yeri": "Utilita Arena Birmingham",
+                "sehir": "Birmingham, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14011",
+                "tarih": "2024-05-14",
+                "konser_yeri": "The O2",
+                "sehir": "Londra, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14012",
+                "tarih": "2024-05-15",
+                "konser_yeri": "The O2",
+                "sehir": "Londra, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14013",
+                "tarih": "2024-05-17",
+                "konser_yeri": "The O2",
+                "sehir": "Londra, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14014",
+                "tarih": "2024-05-18",
+                "konser_yeri": "The O2",
+                "sehir": "Londra, Birleşik Krallık",
+                "ülke": "Birleşik Krallık"
+            },
+            {
+                "id": "14015",
+                "tarih": "2024-05-21",
+                "konser_yeri": "Sportpaleis Antwerpen",
+                "sehir": "Merksem (Antwerpen)",
+                "ülke": "Belçika"
+            },
+            {
+                "id": "14016",
+                "tarih": "2024-05-22",
+                "konser_yeri": "Sportpaleis Antwerpen",
+                "sehir": "Merksem (Antwerpen)",
+                "ülke": "Belçika"
+            },
+            {
+                "id": "14017",
+                "tarih": "2024-05-24",
+                "konser_yeri": "Ziggo Dome",
+                "sehir": "Amsterdam",
+                "ülke": "Hollanda"
+            },
+            {
+                "id": "14018",
+                "tarih": "2024-05-25",
+                "konser_yeri": "Ziggo Dome",
+                "sehir": "Amsterdam",
+                "ülke": "Hollanda"
+            },
+            {
+                "id": "14019",
+                "tarih": "2024-05-28",
+                "konser_yeri": "Telenor Arena",
+                "sehir": "Oslo, Norveç",
+                "ülke": "Norveç"
+            },
+            {
+                "id": "14020",
+                "tarih": "2024-05-30",
+                "konser_yeri": "Royal Arena",
+                "sehir": "Kopenhag, Danimarka",
+                "ülke": "Danimarka"
+            },
+            {
+                "id": "14021",
+                "tarih": "2024-06-01",
+                "konser_yeri": "Mercedes-Benz Arena",
+                "sehir": "Berlin",
+                "ülke": "Almanya"
+            },
+            {
+                "id": "14022",
+                "tarih": "2024-06-04",
+                "konser_yeri": "Barclays Arena",
+                "sehir": "Hamburg",
+                "ülke": "Almanya"
+            },
+            {
+                "id": "14023",
+                "tarih": "2024-06-05",
+                "konser_yeri": "Festhalle",
+                "sehir": "Frankfurt, Almanya",
+                "ülke": "Almanya"
+            },
+            {
+                "id": "14024",
+                "tarih": "2024-06-07",
+                "konser_yeri": "Olympiahalle",
+                "sehir": "Münih",
+                "ülke": "Almanya"
+            },
+            {
+                "id": "14025",
+                "tarih": "2024-06-09",
+                "konser_yeri": "Unipol Arena",
+                "sehir": "Casalecchio di Reno",
+                "ülke": "İtalya"
+            },
+            {
+                "id": "14026",
+                "tarih": "2024-06-11",
+                "konser_yeri": "Hallenstadion",
+                "sehir": "Zürih",
+                "ülke": "İsviçre"
+            },
+            {
+                "id": "14027",
+                "tarih": "2024-06-12",
+                "konser_yeri": "LANXESS arena",
+                "sehir": "Köln",
+                "ülke": "Almanya"
+            },
+            {
+                "id": "14028",
+                "tarih": "2024-06-14",
+                "konser_yeri": "ACCOR ARENA",
+                "sehir": "Paris, Fransa",
+                "ülke": "Fransa"
+            },
+            {
+                "id": "14029",
+                "tarih": "2024-06-15",
+                "konser_yeri": "ACCOR ARENA",
+                "sehir": "Paris, Fransa",
+                "ülke": "Fransa"
+            },
+            {
+                "id": "14030",
+                "tarih": "2024-06-18",
+                "konser_yeri": "Palau Sant Jordi",
+                "sehir": "Barselona",
+                "ülke": "İspanya"
+            },
+            {
+                "id": "14031",
+                "tarih": "2024-06-20",
+                "konser_yeri": "WiZink Center",
+                "sehir": "Madrid",
+                "ülke": "İspanya"
+            },
+            {
+                "id": "14032",
+                "tarih": "2024-06-22",
+                "konser_yeri": "Altice Arena",
+                "sehir": "Lizbon, Lizbon",
+                "ülke": "Portekiz"
+            },
+            {
+                "id": "14033",
+                "tarih": "2024-06-23",
+                "konser_yeri": "Altice Arena",
+                "sehir": "Lizbon, Lizbon",
+                "ülke": "Portekiz"
+            },
+            {
+                "id": "14034",
+                "tarih": "2024-07-19",
+                "konser_yeri": "Wells Fargo Center",
+                "sehir": "Philadelphia, Pennsylvania",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14035",
+                "tarih": "2024-07-20",
+                "konser_yeri": "Capital One Arena",
+                "sehir": "Washington, DC",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14036",
+                "tarih": "2024-07-23",
+                "konser_yeri": "State Farm Arena",
+                "sehir": "Atlanta, Georgia",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14037",
+                "tarih": "2024-07-24",
+                "konser_yeri": "Rupp Arena",
+                "sehir": "Lexington, Kentucky",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14038",
+                "tarih": "2024-07-26",
+                "konser_yeri": "T-Mobile Center",
+                "sehir": "Kansas City, Missouri",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14039",
+                "tarih": "2024-07-27",
+                "konser_yeri": "Paycom Center",
+                "sehir": "Oklahoma City, Oklahoma",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14040",
+                "tarih": "2024-07-30",
+                "konser_yeri": "Ball Arena",
+                "sehir": "Denver, Colorado",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14041",
+                "tarih": "2024-07-31",
+                "konser_yeri": "Delta Center",
+                "sehir": "Salt Lake City, Utah",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14042",
+                "tarih": "2024-08-02",
+                "konser_yeri": "Chase Center",
+                "sehir": "San Francisco, California",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14043",
+                "tarih": "2024-08-03",
+                "konser_yeri": "Chase Center",
+                "sehir": "San Francisco, California",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14044",
+                "tarih": "2024-08-06",
+                "konser_yeri": "Climate Pledge Arena",
+                "sehir": "Seattle, Washington",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14045",
+                "tarih": "2024-08-07",
+                "konser_yeri": "Climate Pledge Arena",
+                "sehir": "Seattle, Washington",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14046",
+                "tarih": "2024-08-09",
+                "konser_yeri": "Rogers Arena",
+                "sehir": "Vancouver, Kanada",
+                "ülke": "Kanada"
+            },
+            {
+                "id": "14047",
+                "tarih": "2024-08-10",
+                "konser_yeri": "Moda Center",
+                "sehir": "Portland, Oregon",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14048",
+                "tarih": "2024-08-13",
+                "konser_yeri": "Kia Forum",
+                "sehir": "Inglewood, Kaliforniya",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14049",
+                "tarih": "2024-08-14",
+                "konser_yeri": "Kia Forum",
+                "sehir": "Inglewood, Kaliforniya",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14050",
+                "tarih": "2024-08-16",
+                "konser_yeri": "Kia Forum",
+                "sehir": "Inglewood, Kaliforniya",
+                "ülke": "Amerika Birleşik Devletleri"
+            },
+            {
+                "id": "14051",
+                "tarih": "2024-08-17",
+                "konser_yeri": "Kia Forum",
+                "sehir": "Inglewood, Kaliforniya",
+                "ülke": "Amerika Birleşik Devletleri"
+            }
+        ]
+    }
+    
+  ]
+}

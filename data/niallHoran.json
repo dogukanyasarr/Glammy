@@ -1,0 +1,468 @@
+{
+    "turneler": [
+        {
+            "şarkıcı": "NIALL HORAN",
+            "turne_adı": "THE SHOW: LIVE ON TOUR",
+            "uluslararası_tarihler": [
+                {
+                    "id": "19001",
+                    "tarih": "2024-04-26",
+                    "konser_yeri": "Spark Arena",
+                    "sehir": "Auckland",
+                    "ülke": "Yeni Zelanda"
+                },
+                {
+                    "id": "19002",
+                    "tarih": "2024-04-28",
+                    "konser_yeri": "Brisbane Entertainment Centre",
+                    "sehir": "Brisbane",
+                    "ülke": "Avustralya"
+                },
+                {
+                    "id": "19003",
+                    "tarih": "2024-05-01",
+                    "konser_yeri": "Qudos Bank Arena",
+                    "sehir": "Sydney",
+                    "ülke": "Avustralya"
+                },
+                {
+                    "id": "19004",
+                    "tarih": "2024-05-03",
+                    "konser_yeri": "Rod Laver Arena",
+                    "sehir": "Melbourne",
+                    "ülke": "Avustralya"
+                },
+                {
+                    "id": "19005",
+                    "tarih": "2024-05-04",
+                    "konser_yeri": "Rod Laver Arena",
+                    "sehir": "Melbourne",
+                    "ülke": "Avustralya"
+                },
+                {
+                    "id": "19006",
+                    "tarih": "2024-05-09",
+                    "konser_yeri": "Singapore Indoor Stadium",
+                    "sehir": "Singapur",
+                    "ülke": "Singapur"
+                },
+                {
+                    "id": "19007",
+                    "tarih": "2024-05-11",
+                    "konser_yeri": "Beach City International Stadium",
+                    "sehir": "Cakarta",
+                    "ülke": "Endonezya"
+                },
+                {
+                    "id": "19008",
+                    "tarih": "2024-05-13",
+                    "konser_yeri": "SM Mall of Asia Arena",
+                    "sehir": "Manila",
+                    "ülke": "Filipinler"
+                },
+                {
+                    "id": "19009",
+                    "tarih": "2024-05-15",
+                    "konser_yeri": "Tokyo Garden Theatre",
+                    "sehir": "Tokyo",
+                    "ülke": "Japonya"
+                },
+                {
+                    "id": "19010",
+                    "tarih": "2024-05-29",
+                    "konser_yeri": "Hard Rock Live",
+                    "sehir": "Hollywood",
+                    "ülke": "Florida, ABD"
+                },
+                {
+                    "id": "19011",
+                    "tarih": "2024-05-31",
+                    "konser_yeri": "MidFlorida Credit Union Amphitheatre",
+                    "sehir": "Tampa",
+                    "ülke": "Florida, ABD"
+                },
+                {
+                    "id": "19012",
+                    "tarih": "2024-06-01",
+                    "konser_yeri": "Ameris Bank Amphitheatre",
+                    "sehir": "Alpharetta",
+                    "ülke": "Georgia, ABD"
+                },
+                {
+                    "id": "19013",
+                    "tarih": "2024-06-03",
+                    "konser_yeri": "Bridgestone Arena",
+                    "sehir": "Nashville",
+                    "ülke": "Tennessee, ABD"
+                },
+                {
+                    "id": "19014",
+                    "tarih": "2024-06-05",
+                    "konser_yeri": "PNC Music Pavilion",
+                    "sehir": "Charlotte",
+                    "ülke": "Kuzey Carolina, ABD"
+                },
+                {
+                    "id": "19015",
+                    "tarih": "2024-06-07",
+                    "konser_yeri": "Coastal Credit Union Music Park at Walnut Creek",
+                    "sehir": "Raleigh",
+                    "ülke": "Kuzey Carolina, ABD"
+                },
+                {
+                    "id": "19016",
+                    "tarih": "2024-06-08",
+                    "konser_yeri": "Jiffy Lube Live",
+                    "sehir": "Bristow",
+                    "ülke": "Virginia, ABD"
+                },
+                {
+                    "id": "19017",
+                    "tarih": "2024-06-11",
+                    "konser_yeri": "TD Pavilion at the Mann",
+                    "sehir": "Philadelphia",
+                    "ülke": "Pennsylvania, ABD"
+                },
+                {
+                    "id": "19018",
+                    "tarih": "2024-06-13",
+                    "konser_yeri": "Madison Square Garden",
+                    "sehir": "New York",
+                    "ülke": "New York, ABD"
+                },
+                {
+                    "id": "19019",
+                    "tarih": "2024-06-14",
+                    "konser_yeri": "Madison Square Garden",
+                    "sehir": "New York",
+                    "ülke": "New York, ABD"
+                },
+                {
+                    "id": "19020",
+                    "tarih": "2024-06-15",
+                    "konser_yeri": "Xfinity Center",
+                    "sehir": "Mansfield",
+                    "ülke": "Massachusetts, ABD"
+                },
+                {
+                    "id": "19021",
+                    "tarih": "2024-06-18",
+                    "konser_yeri": "Hartford Healthcare Amphitheater",
+                    "sehir": "Bridgeport",
+                    "ülke": "Connecticut, ABD"
+                },
+                {
+                    "id": "19022",
+                    "tarih": "2024-06-19",
+                    "konser_yeri": "Maine Savings Amphitheater",
+                    "sehir": "Bangor",
+                    "ülke": "Maine, ABD"
+                },
+                {
+                    "id": "19023",
+                    "tarih": "2024-06-21",
+                    "konser_yeri": "Broadview Stage at SPAC",
+                    "sehir": "Saratoga Springs",
+                    "ülke": "New York, ABD"
+                },
+                {
+                    "id": "19024",
+                    "tarih": "2024-06-22",
+                    "konser_yeri": "Darien Lake Amphitheater",
+                    "sehir": "Darien Center",
+                    "ülke": "New York, ABD"
+                },
+                {
+                    "id": "19025",
+                    "tarih": "2024-06-25",
+                    "konser_yeri": "Riverbend Music Center",
+                    "sehir": "Cincinnati",
+
+
+                    "ülke": "Ohio, ABD"
+                },
+                {
+                    "id": "19026",
+                    "tarih": "2024-06-26",
+                    "konser_yeri": "Blossom Music Center",
+                    "sehir": "Cuyahoga Falls",
+                    "ülke": "Ohio, ABD"
+                },
+                {
+                    "id": "19027",
+                    "tarih": "2024-06-28",
+                    "konser_yeri": "Scotiabank Arena",
+                    "sehir": "Toronto",
+                    "ülke": "Kanada"
+                },
+                {
+                    "id": "19028",
+                    "tarih": "2024-06-29",
+                    "konser_yeri": "Scotiabank Arena",
+                    "sehir": "Toronto",
+                    "ülke": "Kanada"
+                },
+                {
+                    "id": "19029",
+                    "tarih": "2024-07-07",
+                    "konser_yeri": "Xcel Energy Center",
+                    "sehir": "Saint Paul",
+                    "ülke": "Minnesota, ABD"
+                },
+                {
+                    "id": "19030",
+                    "tarih": "2024-07-09",
+                    "konser_yeri": "Credit Union 1 Amphitheatre",
+                    "sehir": "Tinley Park",
+                    "ülke": "Illinois, ABD"
+                },
+                {
+                    "id": "19031",
+                    "tarih": "2024-07-10",
+                    "konser_yeri": "Pine Knob Music Theatre",
+                    "sehir": "Clarkston",
+                    "ülke": "Michigan, ABD"
+                },
+                {
+                    "id": "19032",
+                    "tarih": "2024-07-12",
+                    "konser_yeri": "Hollywood Casino Amphitheatre - St. Louis",
+                    "sehir": "Maryland Heights",
+                    "ülke": "Missouri, ABD"
+                },
+                {
+                    "id": "19033",
+                    "tarih": "2024-07-13",
+                    "konser_yeri": "Ruoff Music Center",
+                    "sehir": "Noblesville",
+                    "ülke": "Indiana, ABD"
+                },
+                {
+                    "id": "19034",
+                    "tarih": "2024-07-16",
+                    "konser_yeri": "Starlight Theatre",
+                    "sehir": "Kansas City",
+                    "ülke": "Missouri, ABD"
+                },
+                {
+                    "id": "19035",
+                    "tarih": "2024-07-17",
+                    "konser_yeri": "Walmart AMP",
+                    "sehir": "Rogers",
+                    "ülke": "Arkansas, ABD"
+                },
+                {
+                    "id": "19036",
+                    "tarih": "2024-07-19",
+                    "konser_yeri": "Ball Arena",
+                    "sehir": "Denver",
+                    "ülke": "Colorado, ABD"
+                },
+                {
+                    "id": "19037",
+                    "tarih": "2024-07-20",
+                    "konser_yeri": "USANA Amphitheatre",
+                    "sehir": "West Valley City",
+                    "ülke": "Utah, ABD"
+                },
+                {
+                    "id": "19038",
+                    "tarih": "2024-07-23",
+                    "konser_yeri": "White River Amphitheatre",
+                    "sehir": "Auburn",
+                    "ülke": "Washington, ABD"
+                },
+                {
+                    "id": "19039",
+                    "tarih": "2024-07-24",
+                    "konser_yeri": "RV Inn Style Resorts Amphitheater",
+                    "sehir": "Ridgefield",
+                    "ülke": "Washington, ABD"
+                },
+                {
+                    "id": "19040",
+                    "tarih": "2024-07-26",
+                    "konser_yeri": "Shoreline Amphitheatre",
+                    "sehir": "Mountain View",
+                    "ülke": "California, ABD"
+                },
+                {
+                    "id": "19041",
+                    "tarih": "2024-07-27",
+                    "konser_yeri": "The Kia Forum",
+                    "sehir": "Inglewood",
+                    "ülke": "California, ABD"
+                },
+                {
+                    "id": "19042",
+                    "tarih": "2024-07-28",
+                    "konser_yeri": "The Kia Forum",
+                    "sehir": "Inglewood",
+                    "ülke": "California, ABD"
+                },
+                {
+                    "id": "19043",
+                    "tarih": "2024-07-30",
+                    "konser_yeri": "North Island Credit Union Amphitheatre",
+                    "sehir": "Chula Vista",
+                    "ülke": "California, ABD"
+                },
+                {
+                    "id": "19044",
+                    "tarih": "2024-07-31",
+                    "konser_yeri": "Talking Stick Resort",
+                    "sehir": "Phoenix",
+                    "ülke": "Arizona, ABD"
+                },
+                {
+                    "id": "19045",
+                    "tarih": "2024-08-02",
+                    "konser_yeri": "Dos Equis Pavilion",
+                    "sehir": "Dallas",
+                    "ülke": "Texas,ABD"
+                },
+                {
+                    "id": "19046",
+                    "tarih": "2024-08-03",
+                    "konser_yeri": "Moody Center",
+                    "sehir": "Austin",
+                    "ülke": "Texas, ABD"
+                },
+                {
+                    "id": "19047",
+                    "tarih": "2024-08-23",
+                    "konser_yeri": "Royal Hospital Kilmainham",
+                    "sehir": "Dublin",
+                    "ülke": "İrlanda"
+                },
+                {
+                    "id": "19048",
+                    "tarih": "2024-08-24",
+                    "konser_yeri": "Royal Hospital Kilmainham",
+                    "sehir": "Dublin",
+                    "ülke": "İrlanda"
+                },
+                {
+                    "id": "19049",
+                    "tarih": "2024-08-27",
+                    "konser_yeri": "Co-Op Live",
+                    "sehir": "Manchester",
+                    "ülke": "İngiltere"
+                },
+                {
+                    "id": "19050",
+                    "tarih": "2024-08-28",
+                    "konser_yeri": "First Direct Arena",
+                    "sehir": "Leeds",
+                    "ülke": "İngiltere"
+                },
+                {
+                    "id": "19051",
+                    "tarih": "2024-08-30",
+                    "konser_yeri": "Utilita Arena",
+                    "sehir": "Newcastle upon Tyne",
+                    "ülke": "İngiltere"
+                },
+                {
+                    "id": "19052",
+                    "tarih": "2024-08-31",
+                    "konser_yeri": "P&J Live",
+                    "sehir": "Aberdeen",
+                    "ülke": "İskoçya"
+                },
+                {
+                    "id": "19053",
+                    "tarih": "2024-09-03",
+                    "konser_yeri": "The O2",
+                    "sehir": "Londra",
+                    "ülke": "İngiltere"
+                },
+                {
+                    "id": "19054",
+                    "tarih": "2024-09-07",
+                    "konser_yeri": "Lollapalooza Berlin",
+                    "sehir": "Berlin",
+                    "ülke": "Almanya"
+                },
+                {
+                    "id": "19055",
+                    "tarih": "2024-09-08",
+                    "konser_yeri": "Lollapalooza Berlin",
+                    "sehir": "Berlin",
+                    "ülke": "Almanya"
+                },
+                {
+                    "id": "19056",
+                    "tarih": "2024-09-20",
+                    "konser_yeri": "Palacio de los Deportes",
+                    "sehir": "Meksiko Şehri",
+                    "ülke": "Meksika"
+                },
+                {
+                    "id": "19057",
+                    "tarih": "2024-09-21",
+                    "konser_yeri": "Palacio de los Deportes",
+                    "sehir": "Meksiko Şehri",
+                    "ülke": "Meksika"
+                },
+                {
+                    "id": "19058",
+                    "tarih": "2024-09-23",
+                    "konser_yeri": "Arena VFG",
+                    "sehir": "Guadalajara",
+                    "ülke": "Meksika"
+                },
+                {
+                    "id": "19059",
+                    "tarih": "2024-09-25",
+                    "konser_yeri": "Arena Monterrey",
+                    "sehir": "Monterrey",
+                    "ülke": "Meksika"
+                },
+                {
+                    "id": "19060",
+                    "tarih": "2024-09-28",
+                    "konser_yeri": "Parque Ibirapuera",
+                    "sehir": "São Paulo",
+                    "ülke": "Brezilya"
+                },
+                {
+                    "id": "19061",
+                    "tarih": "2024-09-29",
+                    "konser_yeri": "RioArena",
+                    "sehir": "Rio de Janeiro",
+                    "ülke": "Brezilya"
+                },
+                {
+                    "id": "19062",
+                    "tarih": "2024-10-02",
+                    "konser_yeri": "Movistar Arena",
+                    "sehir": "Buenos Aires",
+                    "ülke": "Arjantin"
+                },
+                {
+                    "id": "19063",
+                    "tarih": "2024-10-04",
+                    "konser_yeri": "Movistar Arena",
+                    "sehir": "Santiago",
+                    "ülke": "Şili"
+                },
+                {
+                    "id": "19064",
+                    "tarih": "2024-10-06",
+                    "konser_yeri": "Tribuna Norte Estadio Nacional",
+                    "sehir": "Lima",
+                    "ülke": "Peru"
+                },
+                {
+                    "id": "19065",
+                    "tarih": "2024-10-09",
+                    "konser_yeri": "Movistar Arena",
+                    "sehir": "Bogotá",
+                    "ülke": "Kolombiya"
+                }
+            ]
+        }
+    ]
+}
+
