@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONSERLER</title>
+    <link rel="shortcut icon" href="../images/grammy.ico" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/concertmap.css">
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        /* Dünya haritasını bütün sayfayı kaplayacak şekilde ayarla */
+        #globeViz {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            /* Butonların arkasında kalmasını sağla */
+        }
+    </style>
+
+    <script src="//unpkg.com/d3"></script>
+    <script src="//unpkg.com/globe.gl"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Container'ı fluid olarak ayarla -->
+        <div id="buttons-container" class="row mt-3">
+            <!-- Dropdown buton burada olacak -->
+            <div class="col-12">
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sanatçılar
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <!-- Sanatçı butonları buraya eklenecek -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="concert-info" class="row mt-3">
+            <!-- Konser bilgileri burada görüntülenecek -->
+        </div>
+    </div>
+
+    <div id="globeViz"></div> <!-- Harita div'i -->
+
+    <script>
+        fetch('https://raw.githubusercontent.com/dogukanyasarr/Glammy/main/data/singers.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                const colorScale = d3.scaleSequentialSqrt(d3.interpolateYlOrRd);
+
+                // GDP per capita (avoiding countries with small pop)
+                const getVal = feat => feat.properties.GDP_MD_EST / Math.max(1e5, feat.properties.POP_EST);
+
+                fetch('https://raw.githubusercontent.com/vasturiano/globe.gl/master/example/datasets/ne_110m_admin_0_countries.geojson')
+                    .then(res => res.json())
+                    .then(countries => {
+                        const maxVal = Math.max(...countries.features.map(getVal));
+                        colorScale.domain([0, maxVal]);
+
+                        const world = Globe()
+                            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+                            .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+                            .lineHoverPrecision(0)
+                            .polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'))
+                            .polygonAltitude(0.06)
+                            .polygonCapColor(feat => colorScale(getVal(feat)))
+                            .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)')
+                            .polygonStrokeColor(() => '#111')
+                            .polygonLabel(({ properties: d }) => `
+                                <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
+                                GDP: <i>${d.GDP_MD_EST}</i> M$<br/>
+                                Population: <i>${d.POP_EST}</i>
+                            `)
+                            .onPolygonHover(hoverD => world
+                                .polygonAltitude(d => d === hoverD ? 0.12 : 0.06)
+                                .polygonCapColor(d => d === hoverD ? 'steelblue' : colorScale(getVal(d)))
+                            )
+                            .polygonsTransitionDuration(300)
+                            (document.getElementById('globeViz'));
+
+                        window.globe = world; // Globe nesnesini global alana kaydet
+
+                        // Dropdown menüsüne sanatçıları ekle
+                        const dropdownMenu = document.querySelector('.dropdown-menu');
+                        const concertInfo = document.getElementById('concert-info');
+
+                        jsonData.turneler.forEach(turne => {
+                            const button = document.createElement('a');
+                            button.className = 'dropdown-item';
+                            button.href = '#';
+                            button.innerText = turne.şarkıcı;
+                            button.addEventListener('click', () => displayConcerts(turne));
+                            dropdownMenu.appendChild(button);
+                        });
+
+                        // Yeni buton ekle
+                        const mapButton = document.createElement('a');
+                        mapButton.className = 'dropdown-item';
+                        mapButton.href = '#';
+                        mapButton.innerText = 'Haritada Göster';
+                        mapButton.addEventListener('click', () => showOnMap(jsonData.turneler.flatMap(turne => turne.uluslararası_tarihler)));
+                        dropdownMenu.appendChild(mapButton);
+
+                        function displayConcerts(artist) {
+                            concertInfo.innerHTML = ''; // Önceki konser bilgilerini temizle
+                            globe.arcsData([]); // Önceki ışınları temizle
+                            globe.ringsData([]); // Önceki halkaları temizle
+
+                            // Sanatçının sadece bir kutusunu oluştur
+                            const concertDiv = document.createElement('div');
+                            concertDiv.className = 'col-12 col-md-4 mb-3';
+                            concertDiv.innerHTML = `
+                                <div class="card">
+                                    <img src="../images/${artist.şarkıcı.toLowerCase()}.jpg" class="card-img-top"
+                                        alt="${artist.şarkıcı} Image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">${artist.şarkıcı}</h5>
+                                        <p class="card-text">${artist.turne_adı}</p>
+                                        <button class="btn btn-success mr-2" onclick="buyTickets()">Spotify</button>
+                                        <button class="btn btn-info mr-2" onclick="shareConcert()">Paylaş</button>
+                                        <button class="btn btn-danger" onclick="addCalendar()">Takvime Ekle</button>
+                                    </div>
+                                </div>`;
+                            concertInfo.appendChild(concertDiv);
+
+                            // Haritada göster
+                            showOnMap(artist.uluslararası_tarihler);
+                        }
+
+                        function showOnMap(concerts) {
+    // Önceki ışınları ve halkaları temizle
+    globe.arcsData([]);
+    globe.ringsData([]);
+
+    // Kullanılan renkleri takip etmek için bir Map oluştur
+    const colorMap = new Map();
+
+    // Her bir sanatçının konserlerini döngüye al
+    concerts.forEach(concert => {
+        const { başlangıç_koordinatları, gidiş_koordinatları } = concert;
+
+        // Başlangıç ve gidiş ülkelerini tutan bir map oluştur
+        const startCountryKey = `${başlangıç_koordinatları.lat},${başlangıç_koordinatları.lng}`;
+        const endCountryKey = `${gidiş_koordinatları.lat},${gidiş_koordinatları.lng}`;
+
+        // Başlangıç ve gidiş ülkeleri için rastgele bir renk seç (eğer daha önce seçilmediyse)
+        let startColor = colorMap.get(startCountryKey);
+        if (!startColor) {
+            startColor = getRandomColor();
+            colorMap.set(startCountryKey, startColor);
+        }
+
+        let endColor = colorMap.get(endCountryKey);
+        if (!endColor) {
+            endColor = getRandomColor();
+            colorMap.set(endCountryKey, endColor);
+        }
+
+        // Işınları ve halkaları ekle
+        const arc = {
+            startLat: başlangıç_koordinatları.lat,
+            startLng: başlangıç_koordinatları.lng,
+            endLat: gidiş_koordinatları.lat,
+            endLng: gidiş_koordinatları.lng,
+            color: startColor // Başlangıç ülkesinin rengini kullanabilirsiniz
+        };
+
+        globe.arcsData([...globe.arcsData(), arc]);
+
+        // Halkaları ekle
+        globe.ringsData([...globe.ringsData(), başlangıç_koordinatları, gidiş_koordinatları]);
+    });
+}
+
+function getRandomColor() {
+    // Rastgele bir renk oluştur
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+                        function buyTickets() {
+                            // Bilet satın alma işlemi
+                            alert('Bilet satın al butonuna tıklandı.');
+                        }
+
+                        function shareConcert() {
+                            // Konseri paylaşma işlemi
+                            alert('Konseri paylaş butonuna tıklandı.');
+                        }
+
+                        function addCalendar() {
+                            // Takvim ekleme işlemi
+                            alert('Takvime ekle butonuna tıklandı.');
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Veri alınamadı:', error);
+                    });
+            })
+            .catch(error => {
+                console.error('Veri alınamadı:', error);
+            });
+    </script>
+
+    <!-- <script src="../
+
+<script src="../javascript/taylormap.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
