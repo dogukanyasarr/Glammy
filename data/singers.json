@@ -1,0 +1,226 @@
+{
+    "turneler": [
+      {
+        "şarkıcı": "COLDPLAY",
+        "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
+        "uluslararası_tarihler": [
+          {
+            "id": "16001",
+            "tarih": "2024-06-08",
+            "konser_yeri": "OLYMPIC STADIUM",
+            "sehir": "ATHENS",
+            "ülke": "Yunanistan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 37.9838, "lng": 23.7275 }
+          },
+          {
+            "id": "16002",
+            "tarih": "2024-06-09",
+            "konser_yeri": "OLYMPIC STADIUM",
+            "sehir": "ATHENS",
+            "ülke": "Yunanistan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 37.9838, "lng": 23.7275 }
+          },
+          {
+            "id": "16003",
+            "tarih": "2024-06-12",
+            "konser_yeri": "ARENA NAȚIONALĂ",
+            "sehir": "BUCHAREST",
+            "ülke": "Romanya",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 44.4268, "lng": 26.1025 }
+          },
+          {
+            "id": "16004",
+            "tarih": "2024-06-13",
+            "konser_yeri": "ARENA NAȚIONALĂ",
+            "sehir": "BUCHAREST",
+            "ülke": "Romanya",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 44.4268, "lng": 26.1025 }
+          },
+          {
+            "id": "16005",
+            "tarih": "2024-06-16",
+            "konser_yeri": "PUSKÁS ARÉNA",
+            "sehir": "BUDAPEST",
+            "ülke": "Macaristan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 47.4979, "lng": 19.0402 }
+          },
+          {
+            "id": "16006",
+            "tarih": "2024-06-18",
+            "konser_yeri": "PUSKÁS ARÉNA",
+            "sehir": "BUDAPEST",
+            "ülke": "Macaristan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 47.4979, "lng": 19.0402 }
+          },
+          {
+            "id": "16007",
+            "tarih": "2024-06-19",
+            "konser_yeri": "PUSKÁS ARÉNA",
+            "sehir": "BUDAPEST",
+            "ülke": "Macaristan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 47.4979, "lng": 19.0402 }
+          },
+          {
+            "id": "16008",
+            "tarih": "2024-06-22",
+            "konser_yeri": "GROUPAMA STADIUM",
+            "sehir": "LYON",
+            "ülke": "Fransa",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 45.7772, "lng": 4.8554 }
+          },
+          {
+            "id": "16009",
+            "tarih": "2024-06-23",
+            "konser_yeri": "GROUPAMA STADIUM",
+            "sehir": "LYON",
+            "ülke": "Fransa",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 45.7772, "lng": 4.8554 }
+          },
+          {
+            "id": "16010",
+            "tarih": "2024-06-25",
+            "konser_yeri": "GROUPAMA STADIUM",
+            "sehir": "LYON",
+            "ülke": "Fransa",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 45.7772, "lng": 4.8554 }
+          },
+          {
+            "id": "16011",
+            "tarih": "2024-06-29",
+            "konser_yeri": "GLASTONBURY FESTIVAL",
+            "sehir": "PILTON, SOMERSET",
+            "ülke": "Birleşik Krallık",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 51.1568, "lng": -2.5879 }
+          }
+        ]
+      },
+      {
+        "şarkıcı": "TAYLOR SWIFT",
+        "turne_adı": "THE ERAS TOUR",
+        "uluslararası_tarihler": [
+          {
+            "id": 1001,
+            "tarih": "THU, MAY 09, 2024",
+            "konser_yeri": "PARIS LA DÉFENSE ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Paris",
+            "ülke": "France",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+          },
+          {
+            "id": 1002,
+            "tarih": "FRI, MAY 10, 2024",
+            "konser_yeri": "BERLIN STADIUM",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Berlin",
+            "ülke": "Germany",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 52.5200, "lng": 13.4050 }
+          },
+          {
+            "id": 1003,
+            "tarih": "SAT, MAY 11, 2024",
+            "konser_yeri": "PARIS LA DÉFENSE ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Paris",
+            "ülke": "France",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+          },
+          {
+            "id": 1004,
+            "tarih": "SUN, MAY 12, 2024",
+            "konser_yeri": "PARIS LA DÉFENSE ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Paris",
+            "ülke": "France",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+          },
+          {
+            "id": 1005,
+            "tarih": "FRI, MAY 17, 2024",
+            "konser_yeri": "FRIENDS ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Stockholm",
+            "ülke": "Sweden",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 59.3293, "lng": 18.0686 }
+          },
+          {
+            "id": 1006,
+            "tarih": "SAT, MAY 18, 2024",
+            "konser_yeri": "FRIENDS ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Stockholm",
+            "ülke": "Sweden",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 59.3293, "lng": 18.0686 }
+          },
+          {
+            "id": 1007,
+            "tarih": "FRI, MAY 24, 2024",
+            "konser_yeri": "OLYMPIASTADION",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Berlin",
+            "ülke": "Germany",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 52.5200, "lng": 13.4050 }
+          },
+          {
+            "id": 1008,
+            "tarih": "SAT, MAY 25, 2024",
+            "konser_yeri": "OLYMPIASTADION",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Berlin",
+            "ülke": "Germany",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 52.5200, "lng": 13.4050 }
+          },
+          {
+            "id": 1009,
+            "tarih": "SUN, MAY 26, 2024",
+            "konser_yeri": "OLYMPIASTADION",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Berlin",
+            "ülke": "Germany",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 52.5200, "lng": 13.4050 }
+          },
+          {
+            "id": 1010,
+            "tarih": "THU, JUN 06, 2024",
+            "konser_yeri": "LETZIGRUND STADIUM",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Zurich",
+            "ülke": "Switzerland",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 47.3769, "lng": 8.5417 }
+          },
+          {
+            "id": 1011,
+            "tarih": "FRI, JUN 07, 2024",
+            "konser_yeri": "LETZIGRUND STADIUM",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Zurich",
+            "ülke": "Switzerland",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 47.3769, "lng": 8.5417 }
+          }
+        ]
+      }
+    ]
+  }
+  

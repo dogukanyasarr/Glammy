@@ -1,0 +1,36 @@
+{
+    "turneler": [
+      {
+        "şarkıcı": "COLDPLAY",
+        "turne_adı": "MUSIC OF THE SPHERES WORLD TOUR",
+        "uluslararası_tarihler": [
+          {
+            "id": "16001",
+            "tarih": "2024-06-08",
+            "konser_yeri": "OLYMPIC STADIUM",
+            "sehir": "ATHENS",
+            "ülke": "Yunanistan",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 37.9838, "lng": 23.7275 }
+          }          
+        ]
+      },
+      {
+        "şarkıcı": "TAYLOR SWIFT",
+        "turne_adı": "THE ERAS TOUR",
+        "uluslararası_tarihler": [
+          {
+            "id": 1001,
+            "tarih": "THU, MAY 09, 2024",
+            "konser_yeri": "PARIS LA DÉFENSE ARENA",
+            "destekleyen_sanatçı": "Paramore",
+            "şehir": "Paris",
+            "ülke": "France",
+            "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
+            "gidiş_koordinatları": { "lat": 48.8566, "lng": 2.3522 }
+          }
+        ]
+      }
+    ]
+  }
+  
