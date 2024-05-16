@@ -6,15 +6,16 @@ function toggleSpotify() {
 function showConcerts() {
     const concertBox = document.getElementById("concertBox");
     
-    // Kutu zaten görünürse, gizle
+    // kutuyu aç kapa yapma kısmı
     if (concertBox.style.display === "block") {
         concertBox.style.display = "none";
         return; // Fonksiyonu sonlandır
     }
     
-    // Kutu görünür değilse, konserleri göster
+    // kutuları gizle
     concertBox.style.display = "block";
 
+    // kutu içerisindeki konserleri/yazıları listeliyor.
     const concertList = document.getElementById("concertList");
     concertList.innerHTML = ""; // Her butona basıldığında listeyi temizle
 
@@ -47,8 +48,12 @@ function showConcerts() {
 }
 function showConcertModal() {
     var modal = document.getElementById("concertModal");
-    modal.style.display = "block";
-  }
+    if (modal.style.display === "block") {
+        modal.style.display = "none";
+    } else {
+        modal.style.display = "block";
+    }
+}
   
   function closeConcertModal() {
     var modal = document.getElementById("concertModal");
@@ -59,7 +64,5 @@ function showConcertModal() {
     
     window.location.href = 'taylorMap.html'
     window.location.href = 'coldplayMap.html'
-    // alert("Sanatçı: " + artist);
-    // document.getElementById("spotify-iframe").style.visibility="hidden"
   }
   

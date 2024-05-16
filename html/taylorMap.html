@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/concertmap.css">
-
+    <link rel="shortcut icon" href="../images/grammy.ico" type="image/x-icon">
     <script src="//unpkg.com/d3-dsv"></script>
     <script src="//unpkg.com/index-array-by"></script>
     <script src="//unpkg.com/globe.gl"></script>
@@ -16,7 +16,7 @@
 <body>
 
     <div id="singer">
-        <img src="../images/taylorswift.jpg" alt="">
+        <img src="../images/taylor.jpg" alt="">
         <div>
             <h2 class="baslik">TAYLOR SWIFT</h2> <br>
             <h2 class="alt-baslik"><em>The Eras Tour</em></h2>
@@ -33,21 +33,19 @@
     </div>
     <div id="concertModal">
         <div class="modal-content">
-          <span class="close" onclick="closeConcertModal()">&times;</span>
-          <h2>Sanatçı Konserleri</h2>
-          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 1 Konseri</button>
-          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 2 Konseri</button>
-          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 3 Konseri</button>
-          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 4 Konseri</button>
-          <button type="button" onclick="goToConcert('coldplayMap.html')">Sanatçı 5 Konseri</button>         
+          <button type="button" class="btn btn-outline-light button-1" onclick="goToConcert('coldplayMap.html')">Joost Klein</button>
+          <button type="button" class="btn btn-outline-light button-1" onclick="window.location.href = 'coldplayMap.html'">Coldplay</button>
+          <button type="button" class="btn btn-outline-light button-1" onclick="goToConcert('coldplayMap.html')">The Weeknd</button>
+          <button type="button" class="btn btn-outline-light button-1"onclick="goToConcert('coldplayMap.html')">Adele</button>
+          <button type="button" class="btn btn-outline-light button-1" onclick="goToConcert('coldplayMap.html')">Selena Gomez</button>         
         </div>
       </div>
     
 
     <div id="buttons">
-        <button type="button" class="btn btn-outline-light button-1">Taylor Swift Kimdir?</button>
+        <button type="button" class="btn btn-outline-light button-1">TAYLOR SWIFT KİMDİR?</button>
         <button type="button" class="btn btn-outline-light button-2"onclick="showConcerts()">KONSERLER</button>
-        <button type="button" class="btn btn-outline-light button-3" onclick="toggleSpotify()">Spotify</button>
+        <button type="button" class="btn btn-outline-light button-3" onclick="toggleSpotify()">SPOTIFY</button>
         <button type="button" class="btn btn-outline-light button-4" onclick="showConcertModal()">SANATÇILAR</button>
 
     </div>
