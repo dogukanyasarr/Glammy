@@ -138,6 +138,138 @@
             "ülke": "Danimarka",
             "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
             "gidiş_koordinatları": { "lat": 55.6761, "lng": 12.5683 }
+          },
+          {
+            "id": "002",
+            "tarih": "2024-06-08",
+            "saldiri_turu": "Malware",
+            "sehir": "Tayland",
+            "saldiran_grup": "Anonymous",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 39.54845433498246, "lng": -75.42758673999413 },
+            "gidis_koordinatlari": { "lat": 17.672201042866913, "lng": 99.74379034410347 }
+          },
+          {
+            "id": "002",
+            "tarih": "2024-06-08",
+            "saldiri_turu": "Malware",
+            "sehir": "Afganistan",
+            "saldiran_grup": "Anonymous",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 39.54845433498246, "lng": -75.42758673999413 },
+            "gidis_koordinatlari": { "lat": 32.98013748547887, "lng": 66.5937739012642 }
+          },
+          {
+            "id": "001",
+            "tarih": "2024-06-08",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Etiyopya",
+            "saldiran_grup": "Anonymous",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 39.54845433498246, "lng": -75.42758673999413 },
+            "gidis_koordinatlari": { "lat": 7.83897392570009, "lng": 39.059186756092636 }
+          } ,         
+          {
+            "id": "002",
+            "tarih": "2024-06-08",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Türkmenistan",
+            "saldiran_grup": "Anonymous",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 39.54845433498246, "lng": -75.42758673999413 },
+            "gidis_koordinatlari": { "lat": 38.67611198752579, "lng": 59.27248591164781 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Brezilya",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -9.219279852579701, "lng": -54.790105595963 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Peru",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -9.739420849230099, "lng": -75.620183720963 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Bolivya",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -17.254180615267117, "lng": -63.948309793846605 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Paraguay",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -23.672741402994347, "lng": -58.147528543846605 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Şili",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -27.47712501051077, "lng": -70.1006535438466 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Arjantin",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -35.91400406775457, "lng": -65.41608430423021 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Uruguay",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": -33.273635745624276, "lng": -55.26471711673021 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Kolombia",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 },
+            "gidis_koordinatlari": { "lat": 3.1161721804179825, "lng": -72.807683720963 }
           }          
         ]
       },
@@ -290,6 +422,149 @@
             "ülke": "Danimarka",
             "başlangıç_koordinatları": { "lat": 40.7128, "lng": -74.0060 },
             "gidiş_koordinatları": { "lat": 55.6761, "lng": 12.5683 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Phishing",
+            "sehir": "Suudi Arabistan",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 23.036844206520215, "lng": 44.17443829723033 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Malware",
+            "sehir": "Çin",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 33.01503628744151, "lng": 104.8941680945002 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Polonya",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Düşük",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 52.64080120848584, "lng": 18.322417535377 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "DDoS",
+            "sehir": "Moskova",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Düşük",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 31.177476007652654, "lng": -99.15805548999413 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "ABD",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Düşük",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 49.172307439543275, "lng": 64.6402618445002 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Cezayir",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari":{ "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 27.486415969695493, "lng": 2.0396597976270625 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Şili",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 59.10919859690215, "lng": 92.38962693435992 },
+            "gidis_koordinatlari": { "lat": -27.47712501051077, "lng": -70.1006535438466 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Arjantin",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 59.10919859690215, "lng": 92.38962693435992 },
+            "gidis_koordinatlari": { "lat": -35.91400406775457, "lng": -65.41608430423021 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Uruguay",
+            "saldiran_grup": "Grey Wolves",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 59.10919859690215, "lng": 92.38962693435992 },
+            "gidis_koordinatlari": { "lat": -33.273635745624276, "lng": -55.26471711673021 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Phishing",
+            "sehir": "İrlanda",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Yüksek",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 52.78800944566051, "lng": -7.6766289519401365 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Malware",
+            "sehir": "UK",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 53.525806817377706, "lng": -1.5506513165565305 }
+          },
+          {
+            "id": "101",
+            "tarih": "THU, MAY 09, 2024",
+            "saldiri_turu": "Ransomware",
+            "sehir": "Romanya",
+            "saldiran_grup": "Sandworm",
+            "saldiri_basarisi": false,
+            "saldiri_siddeti": "Düşük",
+            "baslangic_koordinatlari": { "lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 45.602669721292, "lng": 24.5957325988235 }
+          },
+          {
+            "id": "102",
+            "tarih": "2024-06-08",
+            "saldiri_turu": "SQL Injection",
+            "sehir": "Afganistan",
+            "saldiran_grup": "Anonymous",
+            "saldiri_basarisi": true,
+            "saldiri_siddeti": "Orta",
+            "baslangic_koordinatlari": {"lat": 62.85593672577153, "lng": 53.717751934359924 },
+            "gidis_koordinatlari": { "lat": 32.98013748547887, "lng": 66.5937739012642 }
           }   
         ]
       }
